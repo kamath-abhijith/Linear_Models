@@ -48,7 +48,6 @@ class Polynomial_Features(object):
                 features.append(functools.reduce(lambda x, y: x * y, items))
         return np.asarray(features).transpose()
 
-
 class Label_Transformer(object):
     '''
     Label encoder decoder
@@ -101,6 +100,49 @@ class Label_Transformer(object):
         '''
 
         return np.argmax(onehot, axis=1)
+
+class Dataset(object):
+    '''
+    Dataset handler
+
+    Attributes
+    ----------
+
+    samples : float ndarray (n, d)
+    labels : float ndarray (n,)
+
+    '''
+
+    def __init__(self, samples=None, labels=None):
+        self.samples = samples
+        self.labels = labels
+
+    def train_test_split(self, samples, labels, fraction=0.5):
+        '''
+        Splits dataset into training and testing sets
+
+        :param samples: samples of the dataset
+        :param labels: labels of the dataset
+        :param fraction: split fraction
+
+        :return: 
+
+        '''
+
+        num_samples, _ = samples.shape
+
+        num_train_samples = int(num_samples * fraction)
+
+        random_idx = np.random.randint(num_samples, size=num_train_samples)
+        rest_idx = np.setdiff1d(np.arange(num_samples), random_idx)
+
+        train_samples = samples[random_idx]
+        train_labels = labels[random_idx]
+
+        test_samples = samples[rest_idx]
+        test_labels = labels[rest_idx]
+
+        return train_samples, train_labels, test_samples, test_labels
 
 # %% CLASSIFIERS
 
