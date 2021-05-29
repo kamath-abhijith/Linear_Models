@@ -1,6 +1,6 @@
 '''
 
-LINEAR LEAST-SQUARES CLASSIFICATION ON IRIS
+LINEAR LEAST-SQUARES CLASSIFICATION ON GERMAN NUMERIC
 
 AUTHOR: ABIJITH J. KAMATH
 abijithj@iisc.ac.in, kamath-abhijith.github.com
@@ -33,7 +33,7 @@ plt.rcParams.update({
 
 # %% IMPORT DATA
 
-data = np.loadtxt('./../data/iris_dataset.txt', delimiter=',', skiprows=1)
+data = np.loadtxt('./../data/german.data-numeric', skiprows=1)
 
 num_samples, dim = data.shape
 
@@ -44,14 +44,14 @@ labels = (data[:,dim-1] - 1).astype(int)
 num_classes = len(np.unique(labels))
 
 dataset = linear_tools.Dataset(samples, labels)
-    
+
 # %% TRAINING AND TESTING
 
 iter_len = 100
 confusion_mtx = np.zeros((iter_len, num_classes, num_classes))
 for iter in range(iter_len):
     train_samples, train_labels, test_samples, test_labels = \
-        dataset.train_test_split(samples, labels, fraction=0.5)
+        dataset.train_test_split(samples, labels, fraction=0.8)
 
     # TRAINING
 
@@ -63,6 +63,8 @@ for iter in range(iter_len):
     confusion_mtx[iter, :, :] = model.accuracy(test_samples, test_labels)
 
 confusion_mtx = np.mean(confusion_mtx, axis=0)
+LR_ACCURACY = sum(np.diag(confusion_mtx))/sum(sum(confusion_mtx)) * 100
+print(r'Linear Regression classifies with %.2f %% accuracy' %(LR_ACCURACY))
 
 # %%
 utils.plot_confusion_matrix(confusion_mtx)

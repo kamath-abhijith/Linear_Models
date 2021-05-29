@@ -29,6 +29,18 @@ class Polynomial_Features(object):
         assert isinstance(degree, int)
         self.degree = degree
 
+    def normalise(self, samples):
+        '''
+        Returns normalised features
+
+        :param samples: raw samples
+
+        :return: normalised matrix of features
+
+        '''
+
+        return samples / np.linalg.norm(samples, axis=1)[:,None]
+
     def transform(self, samples):
         '''
         Returns transformed features with augmented ones
@@ -288,7 +300,7 @@ class Logistic_Regression(Classifier):
 
         return np.argmax(self.probs(samples), axis=-1)
 
-    def accuracy(self, samples, labels):
+    def accuracy(self, samples, labels, num_classes=2):
         '''
         Returns the confusion matrix with testing accuracies
 
@@ -300,7 +312,7 @@ class Logistic_Regression(Classifier):
         '''
 
         num_samples, _ = samples.shape
-        num_classes = len(np.unique(labels))
+        # num_classes = len(np.unique(labels))
 
         predictions = self.predict(samples)
 
@@ -310,3 +322,43 @@ class Logistic_Regression(Classifier):
                 confusion_mtx[i,j] = sum((labels==i) & (predictions==j))
 
         return num_classes*confusion_mtx/num_samples
+
+# %% REGRESSION MODELS
+
+class Least_Squares_Regression(Classifier):
+    '''
+    Linear Least-Squares Regression
+
+    Attributes
+    ----------
+    weights: ndarray (d+1)
+
+    '''
+
+    def __init__(self, weights=None):
+        self.weights = weights
+
+    def fit(self, samples, labels):
+        '''
+        Train linear least-squares regression
+
+        :param samples: training samples
+        :param labels: training labels
+
+        :setter: learnt weights
+
+        '''
+
+        self.weights = np.linalg.pinv(samples) @ labels
+
+    def predict(self, samples):
+        '''
+        Predict values using linear least-squares regression
+
+        :param samples: test samples
+
+        :returns: predicted values
+
+        '''
+
+        return samples @ self.weights

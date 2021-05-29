@@ -1,6 +1,6 @@
 '''
 
-LINEAR LEAST-SQUARES CLASSIFICATION ON IRIS
+LOGISTIC REGRESSION ON GERMAN NUMERIC
 
 AUTHOR: ABIJITH J. KAMATH
 abijithj@iisc.ac.in, kamath-abhijith.github.com
@@ -33,18 +33,19 @@ plt.rcParams.update({
 
 # %% IMPORT DATA
 
-data = np.loadtxt('./../data/iris_dataset.txt', delimiter=',', skiprows=1)
+data = np.loadtxt('./../data/german.data-numeric', skiprows=1)
 
 num_samples, dim = data.shape
 
 features = linear_tools.Polynomial_Features(1)
 
-samples = features.transform(data[:,:dim-1])
+samples = features.normalise(data[:,:dim-1])
+samples = features.transform(samples)
 labels = (data[:,dim-1] - 1).astype(int)
 num_classes = len(np.unique(labels))
 
 dataset = linear_tools.Dataset(samples, labels)
-    
+
 # %% TRAINING AND TESTING
 
 iter_len = 100
@@ -55,7 +56,7 @@ for iter in range(iter_len):
 
     # TRAINING
 
-    model = linear_tools.Least_Squares_Classifier()
+    model = linear_tools.Logistic_Regression()
     model.fit(train_samples, train_labels)
 
     # TESTING
@@ -63,6 +64,8 @@ for iter in range(iter_len):
     confusion_mtx[iter, :, :] = model.accuracy(test_samples, test_labels)
 
 confusion_mtx = np.mean(confusion_mtx, axis=0)
+LOG_ACCURACY = sum(np.diag(confusion_mtx))/sum(sum(confusion_mtx)) * 100
+print(r'Logistic Regression classifies with %.2f %% accuracy' %(LOG_ACCURACY))
 
 # %%
 utils.plot_confusion_matrix(confusion_mtx)

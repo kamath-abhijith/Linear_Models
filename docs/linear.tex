@@ -1,6 +1,6 @@
 \documentclass[12pt, a4 paper]{article}
 % Set target color model to RGB
-\usepackage[inner=2.5cm,outer=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[inner=1cm,outer=1cm,top=3cm,bottom=3cm]{geometry}
 \usepackage{setspace}
 \usepackage{verbatim}
 \usepackage{subcaption}
@@ -56,108 +56,201 @@ pdfproducer={PDFLaTeX},%
 \section*{Introduction}
 \label{sec:intro}
 
+Let patterns be in $\rr^{d}$ and consider the $2$-class classification problem - given a pattern $\bx$, classify the pattern with a label $y$. In classification using linear least-squares and logistic regression the training data $\{\bx^{(i)}, y^{(i)}\}_{i=1}^{n}$ is used to directly learn a discriminative function that scores the new patterns, and the classification is achieved by thresholding the score.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\section{Two-Class Logistic Regression}
-\label{sec:logisticRegression}
+\subsection*{Linear Least-Squares Classification}
+\label{subsec:linearRegression}
+
+Consider the two-class classification problem of classifying patterns into labels $y \in \{-1, +1\}$. The discriminative function in linear least-squares classification is a function that is linear in the weights, using features of the patterns. In this case, the patterns are directly used as the features, and the discriminative function is given as:
+\begin{equation}
+	f(\bx) = \sum_{i=1}^{d} w_{i} x_{i} + w_{0} = \bW^{\TT} \tilde{\bx},
+\label{eq:linearDiscriminator}
+\end{equation}
+where $\bW = [w_{0}, w_{1}, \cdots, w_{d}] \in \rr^{d+1}$ are the weights to be learnt from the training samples and $\tilde{\bx}$ is the augmented feature vector with $1$ padded as its first entry. The classification is then done using the sign of the score function $f(\bx)$. This can be easily extended to a multi-class classifier by consider the labels to be one-hot vectors and choosing the class that gives the largest score.
+
+The weights are obtained by minimising the $\ell^{2}$-norm between the predictions $f(\bx^{i})$ and $y^{(i)}$:
+\begin{equation}
+	J(\bW) = \frac{1}{2} \sum_{i=1}^{n} \left( \bW^{\TT}\bx^{(i)} - y^{(i)} \right)^{2}.
+\label{eq:lsClassifier}
+\end{equation}
+The minimiser of $J(\bW)$ can be obtained in closed form as $\bW^{*} = \bA^{\dagger} \by$, where $\bA = [\bx^{(1)} \; \bx^{(2)} \; \cdots ; \bx^{(n)}]^{\TT}$ and $\by = [y^{(1)} \; y^{(2)} \; \cdots \; y^{(n)}]^{\TT}$.
+
+% ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\subsection*{Logistic Regression}
+\label{subsec:logisticRegression}
+
+Consider the two-class classification problem of classifying patterns into labels $y \in \{-1, +1\}$. The discriminative function in logistic regression is the sigmoid:
+\begin{equation}
+	f(\bx) = \frac{1}{1+e^{-\bW^{\TT}\tilde{\bx}}},
+\label{eq:logisticDiscriminator}
+\end{equation}
+which is treated as the probability of assigning $y=+1$ to the pattern $\bx$ ($\bW$ and $\tilde{\bx}$ have the same meaning as above). If the score is less than $1/2$, the pattern is classified into $y=-1$.
+
+The weights are obtained from the training samples by maximising the likelihood using gradient descent. The weights cannot be obtained in closed form like in Linear Least-Squares classification. The gradient descent updates for the weights is given by:
+\begin{equation}
+	\bW^{+} = \bW + \eta \sum_{i=1}^{n} \left( y^{(i)} - \sigma(\bW^{\TT}\tilde{\bx}^{(i)}) \right) \tilde{\bx}^{(i)},
+\label{eq:logGD}
+\end{equation}
+where $\sigma$ is the sigmoid function and $\eta$ is the step size.
+
+Logistic regression can be extended to multi-class classification by taking the score function for each class to be the softmax function, which is interpreted as assigning the probability of the pattern being in each class and then choosing the class that gives the highest probability.
+
+% ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\section{Linear Least-Squares and Logistic Regression}
+\label{sec:LRandLOG}
 
 \problem{Problem (1.a) Gamma-distributed Classes in 2D}
 \label{prob:1.a}
 
-%\begin{figure}[!htbp]
-%\centering
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_QD_ML_dataset_P1a_size_10.pdf}
-%       \caption{QDA, size $10$.}
-%       \label{fig:QDA_P1a_10}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_KNN_dataset_P1a_size_10.pdf}
-%       \caption{KNN, size $10$.}
-%       \label{fig:KNN_P1a_10}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/samples_QD_ML_dataset_P1a_size_10.pdf}
-%       \caption{Samples, size $10$.}
-%       \label{fig:DF_P1a_10}
-%    \end{subfigure}
-%    
-%\quad \quad 
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_QD_ML_dataset_P1a_size_25.pdf}
-%       \caption{QDA, size $25$.}
-%       \label{fig:QDA_P1a_25}
-%    \end{subfigure}
-%\quad \quad 
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_KNN_dataset_P1a_size_25.pdf}
-%       \caption{KNN, size $25$.}
-%       \label{fig:KNN_P1a_25}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/samples_QD_ML_dataset_P1a_size_25.pdf}
-%       \caption{Samples, size $25$.}
-%       \label{fig:DF_P1a_25}
-%    \end{subfigure}
-%    
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_QD_ML_dataset_P1a_size_75.pdf}
-%       \caption{QDA, size $75$.}
-%       \label{fig:QDA_P1a_75}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_KNN_dataset_P1a_size_75.pdf}
-%       \caption{KNN, size $75$.}
-%       \label{fig:KNN_P1a_75}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/samples_QD_ML_dataset_P1a_size_75.pdf}
-%       \caption{Samples, size $75$.}
-%       \label{fig:DF_P1a_75}
-%    \end{subfigure}
-%    
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_QD_ML_dataset_P1a_size_199.pdf}
-%       \caption{QDA, size $199$.}
-%       \label{fig:QDA_P1a_199}
-%    \end{subfigure}
-%\quad \quad 
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/conf_mtx_KNN_dataset_P1a_size_199.pdf}
-%       \caption{KNN, size $199$.}
-%       \label{fig:KNN_P1a_199}
-%    \end{subfigure}
-%\quad \quad
-%    \begin{subfigure}[!htbp]{0.24\textwidth}
-%       \centering
-%       \includegraphics[width=1.8in]{../results/ex1/samples_QD_ML_dataset_P1a_size_199.pdf}
-%       \caption{Samples, size $199$.}
-%       \label{fig:DF_P1a_199}
-%    \end{subfigure}
-%
-%\caption{Bayes classifier and Nearest neighbour classification on P1a dataset.}
-%\label{fig:ex11P1a}
-%\end{figure}
+\begin{figure}[!htbp]
+\centering
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_10.pdf}
+       \caption{LS, size $10$}
+       \label{fig:LS_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_10.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf}
+       \caption{LOG, size $10$}
+       \label{fig:LOG_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_10}
+    \end{subfigure}
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_50.pdf}
+       \caption{LS, size $50$}
+       \label{fig:LS_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_50.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf}
+       \caption{LOG, size $50$}
+       \label{fig:LOG_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_50}
+    \end{subfigure}
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_100.pdf}
+       \caption{LS, size $100$}
+       \label{fig:LS_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_100.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf}
+       \caption{LOG, size $100$}
+       \label{fig:LOG_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_100}
+    \end{subfigure} 
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_500.pdf}
+       \caption{LS, size $500$}
+       \label{fig:LS_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_500.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf}
+       \caption{LOG, size $500$}
+       \label{fig:LOG_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_500}
+    \end{subfigure} 
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_999.pdf}
+       \caption{LS, size $999$}
+       \label{fig:LS_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_999.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf}
+       \caption{LOG, size $999$}
+       \label{fig:LOG_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_999}
+    \end{subfigure}     
+
+\caption{Linear Least-Squares Classification and Logistic Regression.}
+\label{fig:ex1_P1a}
+\end{figure}
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
