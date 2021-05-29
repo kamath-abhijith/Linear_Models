@@ -88,3 +88,63 @@ def plot_confusion_matrix(data, ax=None, xaxis_label=r'PREDICTED CLASS',
         plt.show()
 
     return
+
+def plot_samples1D(x, y, ax=None, title_text=None, plot_colour='blue',
+    xlimits=[-5,5], ylimits=[0,5], legend_label=None, legend_show=True,
+    legend_loc='upper left', show=True, save=False):
+    ''' Plots 1D samples for regression '''
+
+    if ax is None:
+        fig = plt.figure(figsize=(8,8))
+        ax = plt.gca()
+
+    plt.scatter(x, y, color=plot_colour, label=legend_label)
+
+    if legend_label and legend_show:
+        plt.legend(loc=legend_loc, frameon=True, framealpha=0.8, facecolor='white')
+
+    plt.xlabel(r'$x$')
+    plt.ylabel(r'$y$')
+    plt.title(title_text)
+
+    plt.ylim(ylimits)
+    plt.xlim(xlimits)
+
+    if save:
+        plt.savefig(save + '.pdf', format='pdf')
+
+    if show:
+        plt.show()
+
+    return
+
+def plot_signal(x, y, ax=None, title_text=None, plot_colour='blue',
+    xlimits=[-5,5], ylimits=[0,5], legend_label=None, legend_show=True,
+    legend_loc='upper left', line_style='-', line_width=None,
+    show=True, save=False):
+    ''' Plots 1D samples for regression '''
+
+    if ax is None:
+        fig = plt.figure(figsize=(8,8))
+        ax = plt.gca()
+
+    plt.plot(x, y, color=plot_colour, linestyle=line_style,
+        linewidth=line_width, label=legend_label)
+
+    if legend_label and legend_show:
+        plt.legend(loc=legend_loc, frameon=True, framealpha=0.8, facecolor='white')
+
+    plt.xlabel(r'$x$')
+    plt.ylabel(r'$y$')
+    plt.title(title_text)
+
+    plt.ylim(ylimits)
+    plt.xlim(xlimits)
+
+    if save:
+        plt.savefig(save + '.pdf', format='pdf')
+
+    if show:
+        plt.show()
+
+    return
