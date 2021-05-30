@@ -39,17 +39,17 @@ force_train = args.force_train
 
 # %% PLOT SETTINGS
 
-plt.style.use(['science','ieee'])
+# plt.style.use(['science','ieee'])
 
 plt.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["cm"],
-    "mathtext.fontset": "cm",
+    # "font.family": "serif",
+    # "font.serif": ["cm"],
+    # "mathtext.fontset": "cm",
     "font.size": 24})
 
 # %% IMPORT DATA
 
-# dataset = 'Gamma'
+# dataset = 'Uniform'
 train_data = np.loadtxt('./../data/'+dataset+'_train.txt', delimiter=',', skiprows=1)
 test_data = np.loadtxt('./../data/'+dataset+'_test.txt', delimiter=',', skiprows=1)
 

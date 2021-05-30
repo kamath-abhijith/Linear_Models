@@ -257,11 +257,232 @@ Logistic regression can be extended to multi-class classification by taking the 
 \problem{Problem (1.b) Uniform-distributed Classes in 2D}
 \label{prob:1.b}
 
+\begin{figure}[!htbp]
+\centering
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_10.pdf}
+       \caption{LS, size $10$}
+       \label{fig:LS_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_10.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf}
+       \caption{LOG, size $10$}
+       \label{fig:LOG_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_10}
+    \end{subfigure}
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_50.pdf}
+       \caption{LS, size $50$}
+       \label{fig:LS_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_50.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf}
+       \caption{LOG, size $50$}
+       \label{fig:LOG_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_50}
+    \end{subfigure}
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_100.pdf}
+       \caption{LS, size $100$}
+       \label{fig:LS_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_100.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf}
+       \caption{LOG, size $100$}
+       \label{fig:LOG_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_100}
+    \end{subfigure} 
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_500.pdf}
+       \caption{LS, size $500$}
+       \label{fig:LS_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_500.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf}
+       \caption{LOG, size $500$}
+       \label{fig:LOG_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_500}
+    \end{subfigure} 
+    
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_999.pdf}
+       \caption{LS, size $999$}
+       \label{fig:LS_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_999.pdf}
+       \caption{LS Classifier}
+       \label{fig:LSD_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf}
+       \caption{LOG, size $999$}
+       \label{fig:LOG_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf}
+       \caption{LOG Classifier}
+       \label{fig:LOGD_P1a_999}
+    \end{subfigure}     
+
+\caption{Linear Least-Squares Classification and Logistic Regression.}
+\label{fig:ex1_P1a}
+\end{figure}
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \problem{Problem (1.c) Gaussian-distributed Classes in 10D}
 \label{prob:1.c}
+
+\begin{figure}[!htbp]
+\centering
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_10.pdf}
+       \caption{LS, size $10$}
+       \label{fig:LS_P1a_10}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_10.pdf}
+       \caption{LOG, size $10$}
+       \label{fig:LOG_P1a_10}
+    \end{subfigure}
+\quad  
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_50.pdf}
+       \caption{LS, size $50$}
+       \label{fig:LS_P1a_50}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_50.pdf}
+       \caption{LOG, size $50$}
+       \label{fig:LOG_P1a_50}
+    \end{subfigure}
+\quad   
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_100.pdf}
+       \caption{LS, size $100$}
+       \label{fig:LS_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_100.pdf}
+       \caption{LOG, size $100$}
+       \label{fig:LOG_P1a_100}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_500.pdf}
+       \caption{LS, size $500$}
+       \label{fig:LS_P1a_500}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_500.pdf}
+       \caption{LOG, size $500$}
+       \label{fig:LOG_P1a_500}
+    \end{subfigure}
+\quad   
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_999.pdf}
+       \caption{LS, size $999$}
+       \label{fig:LS_P1a_999}
+    \end{subfigure}
+\quad
+    \begin{subfigure}[!htbp]{0.2\textwidth}
+       \centering
+       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_999.pdf}
+       \caption{LOG, size $999$}
+       \label{fig:LOG_P1a_999}
+    \end{subfigure}
+
+\caption{Linear Least-Squares Classification and Logistic Regression.}
+\label{fig:ex1_P1a}
+\end{figure}
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -39,12 +39,12 @@ force_train = args.force_train
 
 # %% PLOT SETTINGS
 
-plt.style.use(['science','ieee'])
+# plt.style.use(['science','ieee'])
 
 plt.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["cm"],
-    "mathtext.fontset": "cm",
+    # "font.family": "serif",
+    # "font.serif": ["cm"],
+    # "mathtext.fontset": "cm",
     "font.size": 24})
 
 # %% IMPORT DATA
@@ -121,7 +121,7 @@ plt.figure(figsize=(8,8))
 ax = plt.gca()
 
 plt.contourf(x1, x2, mesh_labels, alpha=0.2, levels=np.linspace(0, 1, 3))
-utils.plot_data2D(train_data, ax=ax, xlimits=[-1,20], ylimits=[-1,20],
+utils.plot_data2D(train_data, ax=ax, xlimits=[-1,10], ylimits=[-1,10],
     show=False, save=save_res)
 
 save_res = path + 'acc_LOG_dataset_' + dataset + '_size_' + str(training_size)

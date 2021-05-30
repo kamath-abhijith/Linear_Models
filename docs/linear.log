@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  28 MAY 2021 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  30 MAY 2021 12:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,7 +632,254 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box58
 )
-(./linear.aux)
+(./linear.aux
+
+LaTeX Warning: Label `fig:LS_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex1_P1a' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_10' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_50' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_100' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_500' multiply defined.
+
+
+LaTeX Warning: Label `fig:LS_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LS_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LSD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LSD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOG_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOG_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:LOGD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LOGD_P1a_999' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex1_P1a' multiply defined.
+
+)
 \openout1 = `linear.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -758,174 +1005,406 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<../results/ex1/acc_LS_dataset_Gamma_size_10.pdf, id=47, 492.60143pt x 510.9414
-pt>
+<../results/ex1/acc_LS_dataset_Gamma_size_10.pdf, id=47, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf  used 
 on input line 113.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_10.pdf, id=48, 534.71902pt x 510.
-9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Gamma_size_10.pdf, id=48, 578.16pt x 578.16p
+t>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf Graphic file (type pd
 f)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf  u
 sed on input line 120.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf, id=49, 492.60143pt x 510.941
-4pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf, id=49, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf  used
  on input line 127.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf, id=50, 534.71902pt x 510
-.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf, id=50, 578.16pt x 578.16
+pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf  
 used on input line 134.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_50.pdf, id=51, 492.60143pt x 510.9414
-pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Gamma_size_50.pdf, id=51, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf  used 
 on input line 141.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_50.pdf, id=52, 534.71902pt x 510.
-9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Gamma_size_50.pdf, id=52, 578.16pt x 578.16p
+t>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf Graphic file (type pd
 f)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf  u
 sed on input line 148.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf, id=53, 492.60143pt x 510.941
-4pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf, id=53, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf  used
  on input line 155.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf, id=54, 534.71902pt x 510
-.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf, id=54, 578.16pt x 578.16
+pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf  
 used on input line 162.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_100.pdf, id=55, 492.60143pt x 510.941
-4pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Gamma_size_100.pdf, id=55, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf  used
  on input line 169.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_100.pdf, id=56, 534.71902pt x 510
-.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Gamma_size_100.pdf, id=56, 578.16pt x 578.16
+pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf  
 used on input line 176.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf, id=57, 492.60143pt x 510.94
-14pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf, id=57, 578.16pt x 578.16pt>
+
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf  use
 d on input line 183.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf, id=58, 534.71902pt x 51
-0.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf, id=58, 578.16pt x 578.1
+6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf 
  used on input line 190.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_500.pdf, id=59, 492.60143pt x 510.941
-4pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Gamma_size_500.pdf, id=59, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf  used
  on input line 197.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_500.pdf, id=60, 534.71902pt x 510
-.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Gamma_size_500.pdf, id=60, 578.16pt x 578.16
+pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf  
 used on input line 204.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf, id=61, 492.60143pt x 510.94
-14pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf, id=61, 578.16pt x 578.16pt>
+
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf  use
 d on input line 211.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf, id=62, 534.71902pt x 51
-0.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf, id=62, 578.16pt x 578.1
+6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf 
  used on input line 218.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_999.pdf, id=63, 492.60143pt x 510.941
-4pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Gamma_size_999.pdf, id=63, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf  used
  on input line 225.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_999.pdf, id=64, 534.71902pt x 510
-.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Gamma_size_999.pdf, id=64, 578.16pt x 578.16
+pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf  
 used on input line 232.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf, id=65, 492.60143pt x 510.94
-14pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf, id=65, 578.16pt x 578.16pt>
+
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf  use
 d on input line 239.
-(pdftex.def)             Requested size: 108.405pt x 112.43863pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf, id=66, 534.71902pt x 51
-0.9414pt>
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf, id=66, 578.16pt x 578.1
+6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf 
  used on input line 246.
-(pdftex.def)             Requested size: 108.405pt x 103.582pt.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 
-LaTeX Warning: Float too large for page by 74.36276pt on input line 253.
+LaTeX Warning: Float too large for page by 54.19324pt on input line 253.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
  []
 
+<../results/ex1/acc_LS_dataset_Uniform_size_10.pdf, id=67, 578.16pt x 578.16pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+File: ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf  use
+d on input line 264.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Uniform_size_10.pdf, id=68, 578.16pt x 578.1
+6pt>
+File: ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf Graphic file (type 
+pdf)
+<use ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf 
+ used on input line 271.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf, id=69, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf  us
+ed on input line 278.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf, id=70, 578.16pt x 578.
+16pt>
+File: ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf Graphic file (type
+ pdf)
+<use ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf
+  used on input line 285.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Uniform_size_50.pdf, id=71, 578.16pt x 578.16pt>
+
+File: ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf  use
+d on input line 292.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Uniform_size_50.pdf, id=72, 578.16pt x 578.1
+6pt>
+File: ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf Graphic file (type 
+pdf)
+<use ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf 
+ used on input line 299.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf, id=73, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf  us
+ed on input line 306.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf, id=74, 578.16pt x 578.
+16pt>
+File: ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf Graphic file (type
+ pdf)
+<use ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf
+  used on input line 313.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Uniform_size_100.pdf, id=75, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf  us
+ed on input line 320.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Uniform_size_100.pdf, id=76, 578.16pt x 578.
+16pt>
+File: ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf Graphic file (type
+ pdf)
+<use ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf
+  used on input line 327.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf, id=77, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf Graphic file (type pd
+f)
+<use ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf  u
+sed on input line 334.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf, id=78, 578.16pt x 578
+.16pt>
+File: ../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf Graphic file (typ
+e pdf)
+<use ../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_100.pd
+f  used on input line 341.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Uniform_size_500.pdf, id=79, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf  us
+ed on input line 348.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Uniform_size_500.pdf, id=80, 578.16pt x 578.
+16pt>
+File: ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf Graphic file (type
+ pdf)
+<use ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf
+  used on input line 355.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf, id=81, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf Graphic file (type pd
+f)
+<use ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf  u
+sed on input line 362.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf, id=82, 578.16pt x 578
+.16pt>
+File: ../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf Graphic file (typ
+e pdf)
+<use ../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_500.pd
+f  used on input line 369.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Uniform_size_999.pdf, id=83, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf  us
+ed on input line 376.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LS_dataset_Uniform_size_999.pdf, id=84, 578.16pt x 578.
+16pt>
+File: ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf Graphic file (type
+ pdf)
+<use ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf
+  used on input line 383.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf, id=85, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf Graphic file (type pd
+f)
+<use ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf  u
+sed on input line 390.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf, id=86, 578.16pt x 578
+.16pt>
+File: ../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf Graphic file (typ
+e pdf)
+<use ../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_999.pd
+f  used on input line 397.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+LaTeX Warning: Float too large for page by 54.19324pt on input line 404.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
  []
 
+<../results/ex1/acc_LS_dataset_Normal_size_10.pdf, id=87, 578.16pt x 578.16pt>
+File: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf Graphic file (type pdf)
+<use ../results/ex1/acc_LS_dataset_Normal_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf  used
+ on input line 415.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_10.pdf, id=88, 578.16pt x 578.16pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+File: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf  use
+d on input line 422.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_50.pdf, id=89, 578.16pt x 578.16pt>
+File: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf Graphic file (type pdf)
+<use ../results/ex1/acc_LS_dataset_Normal_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf  used
+ on input line 429.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_50.pdf, id=90, 578.16pt x 578.16pt>
+
+File: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf  use
+d on input line 436.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_100.pdf, id=91, 578.16pt x 578.16pt>
+
+File: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf  use
+d on input line 443.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_100.pdf, id=92, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf  us
+ed on input line 450.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_500.pdf, id=93, 578.16pt x 578.16pt>
+
+File: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf  use
+d on input line 457.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_500.pdf, id=94, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf  us
+ed on input line 464.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_999.pdf, id=95, 578.16pt x 578.16pt>
+
+File: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf  use
+d on input line 471.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_999.pdf, id=96, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf  us
+ed on input line 478.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 
  []
 
@@ -1025,26 +1504,172 @@ n a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
 ataset_Gamma_size_999.pdf): PDF inclusion: multiple pdfs with page group includ
 ed in a single page
+>] [4 <../results/ex1/acc_LS_dataset_Uniform_size_10.pdf> <../results/ex1/sampl
+es_LS_dataset_Uniform_size_10.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
+taset_Uniform_size_10.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+> <../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Uniform_size_10.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
+ataset_Uniform_size_10.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+> <../results/ex1/acc_LS_dataset_Uniform_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Uniform_size_50.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/samples_LS_dataset_Uniform_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
+taset_Uniform_size_50.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+> <../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Uniform_size_50.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
+ataset_Uniform_size_50.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+> <../results/ex1/acc_LS_dataset_Uniform_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Uniform_size_100.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/samples_LS_dataset_Uniform_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
+taset_Uniform_size_100.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+> <../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Uniform_size_100.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+> <../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
+ataset_Uniform_size_100.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+> <../results/ex1/acc_LS_dataset_Uniform_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Uniform_size_500.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/samples_LS_dataset_Uniform_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
+taset_Uniform_size_500.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+> <../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Uniform_size_500.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+> <../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
+ataset_Uniform_size_500.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+> <../results/ex1/acc_LS_dataset_Uniform_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/samples_LS_dataset_Uniform_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
+taset_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+> <../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+> <../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
+ataset_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+>] [5 <../results/ex1/acc_LS_dataset_Normal_size_10.pdf> <../results/ex1/acc_LO
+G_dataset_Normal_size_10.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Normal_size_10.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/acc_LS_dataset_Normal_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Normal_size_50.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+> <../results/ex1/acc_LOG_dataset_Normal_size_50.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Normal_size_50.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/acc_LS_dataset_Normal_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Normal_size_100.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/acc_LOG_dataset_Normal_size_100.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Normal_size_100.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/acc_LS_dataset_Normal_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Normal_size_500.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/acc_LOG_dataset_Normal_size_500.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Normal_size_500.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <../results/ex1/acc_LS_dataset_Normal_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LS_datase
+t_Normal_size_999.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <../results/ex1/acc_LOG_dataset_Normal_size_999.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
+et_Normal_size_999.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 
  []
 
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 523.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 523.
  (./linear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 523.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 523.
 Package rerunfilecheck Info: File `linear.out' has not changed.
 (rerunfilecheck)             Checksum: 8F7C26188836F6D4C6B802985C542B60;298.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 523.
  ) 
 Here is how much of TeX's memory you used:
- 18688 strings out of 480608
- 352344 string characters out of 5903629
- 594587 words of memory out of 5000000
- 34172 multiletter control sequences out of 15000+600000
+ 18872 strings out of 480608
+ 362426 string characters out of 5903629
+ 604626 words of memory out of 5000000
+ 34322 multiletter control sequences out of 15000+600000
  548665 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,60p,492b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1057,20 +1682,19 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/f
-onts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on linear.pdf (4 pages, 762775 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on linear.pdf (6 pages, 1210203 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1391 PDF objects out of 1440 (max. 8388607)
+ 473 compressed objects within 5 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

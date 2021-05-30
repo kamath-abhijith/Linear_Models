@@ -21,10 +21,10 @@ from matplotlib import pyplot as plt
 import utils
 import linear_tools
 
-# # %% PARSE ARGUMENTS
+# %% PARSE ARGUMENTS
 
 parser = argparse.ArgumentParser(
-    description = "LINEAR LEAST SQUARES CLASSIFICATION ON 10D TOY DATA"
+    description = "LEAST-SQUARES CLASSIFICATION ON 10D TOY DATA"
 )
 
 parser.add_argument('--training_size', help="size of training set", type=int, default=10)
@@ -37,12 +37,12 @@ force_train = args.force_train
 
 # %% PLOT SETTINGS
 
-plt.style.use(['science','ieee'])
+# plt.style.use(['science','ieee'])
 
 plt.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["cm"],
-    "mathtext.fontset": "cm",
+    # "font.family": "serif",
+    # "font.serif": ["cm"],
+    # "mathtext.fontset": "cm",
     "font.size": 24})
 
 # %% IMPORT DATA
@@ -66,7 +66,7 @@ os.makedirs('./../models/ex1', exist_ok=True)
 path = './../models/ex1/'
 
 num_samples, _ = train_samples.shape 
-# training_size = num_samples
+# training_size = 10
 # force_train = False
 
 if os.path.isfile(path + 'model_LS_dataset_Normal' + '_size_' + \

@@ -37,12 +37,12 @@ force_train = args.force_train
 
 # %% PLOT SETTINGS
 
-plt.style.use(['science','ieee'])
+# plt.style.use(['science','ieee'])
 
 plt.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["cm"],
-    "mathtext.fontset": "cm",
+    # "font.family": "serif",
+    # "font.serif": ["cm"],
+    # "mathtext.fontset": "cm",
     "font.size": 24})
 
 # %% IMPORT DATA
