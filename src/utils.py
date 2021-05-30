@@ -69,13 +69,15 @@ def plot_decisionboundary2D(x1, x2, labels, ax=None,
     return
 
 def plot_confusion_matrix(data, ax=None, xaxis_label=r'PREDICTED CLASS',
-    yaxis_label=r'TRUE CLASS', title_text=None, show=True, save=False):
+    yaxis_label=r'TRUE CLASS', map_min=0.0, map_max=1.0, title_text=None,
+    show=True, save=False):
     ''' Plots confusion matrix '''
     if ax is None:
         fig = plt.figure(figsize=(8,8))
         ax = plt.gca()
 
-    ax = sns.heatmap(data, vmin=0.0, vmax=1.0, linewidths=0.5, annot=True)
+    ax = sns.heatmap(data, vmin=map_min, vmax=map_max, linewidths=0.5,
+        annot=True)
     # ax.invert_yaxis()
     plt.xlabel(xaxis_label)
     plt.ylabel(yaxis_label)

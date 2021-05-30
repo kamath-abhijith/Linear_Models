@@ -30,16 +30,16 @@ class Polynomial_Features(object):
         self.degree = degree
 
     def normalise(self, samples):
-        '''
-        Returns normalised features
-
-        :param samples: raw samples
-
-        :return: normalised matrix of features
-
-        '''
+        ''' Returns normalised features '''
 
         return samples / np.linalg.norm(samples, axis=1)[:,None]
+
+    def whiten(self, samples):
+        ''' Returns whitened data matrix '''
+
+        U, _, VT = np.linalg.svd(samples, full_matrices=False)
+
+        return np.dot(U, VT)
 
     def transform(self, samples):
         '''
@@ -202,7 +202,7 @@ class Least_Squares_Classifier(Classifier):
 
         return np.argmax(samples @ self.weights, axis=-1)
 
-    def accuracy(self, samples, labels):
+    def accuracy(self, samples, labels, return_type='percentage'):
         '''
         Returns the confusion matrix with testing accuracies
 
@@ -223,7 +223,11 @@ class Least_Squares_Classifier(Classifier):
             for j in range(num_classes):
                 confusion_mtx[i,j] = sum((labels==i) & (predictions==j))
 
-        return num_classes*confusion_mtx/num_samples
+        if return_type == 'percentage':
+            return num_classes*confusion_mtx/num_samples
+
+        elif return_type == 'absolute':
+            return confusion_mtx
 
 class Logistic_Regression(Classifier):
     '''
@@ -300,7 +304,7 @@ class Logistic_Regression(Classifier):
 
         return np.argmax(self.probs(samples), axis=-1)
 
-    def accuracy(self, samples, labels, num_classes=2):
+    def accuracy(self, samples, labels, num_classes=2, return_type='percentage'):
         '''
         Returns the confusion matrix with testing accuracies
 
@@ -321,7 +325,11 @@ class Logistic_Regression(Classifier):
             for j in range(num_classes):
                 confusion_mtx[i,j] = sum((labels==i) & (predictions==j))
 
-        return num_classes*confusion_mtx/num_samples
+        if return_type == 'percentage':
+            return num_classes*confusion_mtx/num_samples
+
+        elif return_type == 'absolute':
+            return confusion_mtx
 
 # %% REGRESSION MODELS
 
