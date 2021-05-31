@@ -14,6 +14,8 @@ import pickle
 import argparse
 import numpy as np
 
+from tqdm import tqdm
+
 from matplotlib import style
 from matplotlib import rcParams
 from matplotlib import pyplot as plt
@@ -66,9 +68,9 @@ class0_labels[np.where(class0_labels==2)] = 1
 
 dataset = linear_tools.Dataset(samples, class0_labels)
 
-iter_len = 100
+iter_len = 10000
 confusion_mtx = np.zeros((iter_len, 2, 2))
-for iter in range(iter_len):
+for iter in tqdm(range(iter_len)):
     train_samples, train_labels, test_samples, test_labels = \
         dataset.train_test_split(samples, class0_labels, fraction=split_fraction)
 
@@ -93,9 +95,9 @@ class1_labels = np.invert(class1_labels) + 2
 
 dataset = linear_tools.Dataset(samples, class1_labels)
 
-iter_len = 100
+iter_len = 10000
 confusion_mtx = np.zeros((iter_len, 2, 2))
-for iter in range(iter_len):
+for iter in tqdm(range(iter_len)):
     train_samples, train_labels, test_samples, test_labels = \
         dataset.train_test_split(samples, class1_labels, fraction=split_fraction)
 
@@ -121,9 +123,9 @@ class2_labels = np.invert(class2_labels.astype(int)) + 2
 
 dataset = linear_tools.Dataset(samples, class2_labels)
 
-iter_len = 100
+iter_len = 10000
 confusion_mtx = np.zeros((iter_len, 2, 2))
-for iter in range(iter_len):
+for iter in tqdm(range(iter_len)):
     train_samples, train_labels, test_samples, test_labels = \
         dataset.train_test_split(samples, class2_labels, fraction=split_fraction)
 

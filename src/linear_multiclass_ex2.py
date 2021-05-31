@@ -14,6 +14,8 @@ import pickle
 import argparse
 import numpy as np
 
+from tqdm import tqdm
+
 from matplotlib import style
 from matplotlib import rcParams
 from matplotlib import pyplot as plt
@@ -62,9 +64,9 @@ dataset = linear_tools.Dataset(samples, labels)
     
 # %% TRAINING AND TESTING
 
-iter_len = 100
+iter_len = 10000
 confusion_mtx = np.zeros((iter_len, num_classes, num_classes))
-for iter in range(iter_len):
+for iter in tqdm(range(iter_len)):
     train_samples, train_labels, test_samples, test_labels = \
         dataset.train_test_split(samples, labels, fraction=split_fraction)
 

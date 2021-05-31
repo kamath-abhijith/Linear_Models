@@ -121,7 +121,7 @@ def plot_samples1D(x, y, ax=None, title_text=None, plot_colour='blue',
     return
 
 def plot_signal(x, y, ax=None, title_text=None, plot_colour='blue',
-    xlimits=[-5,5], ylimits=[0,5], legend_label=None, legend_show=True,
+    xlimits=[-6,6], ylimits=[-10,25], legend_label=None, legend_show=True,
     legend_loc='upper left', line_style='-', line_width=None,
     show=True, save=False):
     ''' Plots 1D samples for regression '''

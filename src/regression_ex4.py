@@ -75,7 +75,7 @@ labels = data[:,dim-1]
 
 # %% TRAINING AND TESTING
 
-num_iter = 100
+num_iter = 10000
 error_order2 = np.zeros(num_iter)
 error_order3 = np.zeros(num_iter)
 error_order4 = np.zeros(num_iter)
@@ -122,15 +122,15 @@ ax = plt.gca()
 utils.plot_samples1D(data[:,:dim-1], labels, ax=ax, plot_colour='blue',
     legend_label=r'Samples', show=False)
 utils.plot_signal(test_samples, values_order2, ax=ax, plot_colour='red',
-    ylimits=[-10,25], legend_label=r'Degree $2$, %.2f' %(error_order2_mean),
-    line_width=4, line_style='-', show=False)
+    legend_label=r'Degree $2$, %.2f' %(error_order2_mean), line_width=4,
+    line_style='-', show=False)
 utils.plot_signal(test_samples, values_order3, ax=ax, plot_colour='green',
-    ylimits=[-10,25], legend_label=r'Degree $3$, %.2f' %(error_order3_mean),
-    line_width=4, line_style='-', show=False)
+    legend_label=r'Degree $3$, %.2f' %(error_order3_mean), line_width=4,
+    line_style='-', show=False)
 utils.plot_signal(test_samples, values_order4, ax=ax, plot_colour='magenta',
-    ylimits=[-10,25], legend_label=r'Degree $4$, %.2f' %(error_order4_mean),
-    line_width=4, line_style='-', show=False)
+    legend_label=r'Degree $4$, %.2f' %(error_order4_mean), line_width=4,
+    line_style='-', show=False)
 utils.plot_signal(test_samples, true_signal, ax=ax, plot_colour='blue',
-    ylimits=[-10,25], legend_label=r'True Polynomial', line_width=4,
-    line_style='--', show=False, save=save_res)
+    legend_label=r'True Polynomial', line_width=4, line_style='--',
+    show=False, save=save_res)
 # %%
