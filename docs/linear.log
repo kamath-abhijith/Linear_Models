@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  30 MAY 2021 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  31 MAY 2021 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -50,43 +50,21 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks16
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks17
-\verbatim@line=\toks18
-\verbatim@in@stream=\read2
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen143
-\captionmargin@=\dimen144
-\captionwidth=\dimen145
-\caption@tempdima=\dimen146
-\caption@indent=\dimen147
-\caption@parindent=\dimen148
-\caption@hangindent=\dimen149
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count178
-\c@continuedfloat=\count179
-)
-\c@subfigure=\count180
-\c@subtable=\count181
-)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen150
+\@emptytoks=\toks17
+\ex@=\dimen143
+)
+\pmbraise@=\dimen144
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
@@ -96,74 +74,47 @@ For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
-)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count182
+\inf@bad=\count178
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count183
-\leftroot@=\count184
+\uproot@=\count179
+\leftroot@=\count180
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count185
-\DOTSCASE@=\count186
+\classnum@=\count181
+\DOTSCASE@=\count182
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box45
 \strutbox@=\box46
-\big@size=\dimen152
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count187
-\c@MaxMatrixCols=\count188
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
 \dotsspace@=\muskip16
-\c@parentequation=\count189
-\dspbrk@lvl=\count190
-\tag@help=\toks20
-\row@=\count191
-\column@=\count192
-\maxfields@=\count193
-\andhelp@=\toks21
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks22
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
+\tag@help=\toks18
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
+\andhelp@=\toks19
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks20
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen159
-\pgfutil@tempdimb=\dimen160
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box47
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
-))
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -181,297 +132,9 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
-\pgfkeys@tmptoks=\toks27
-))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\pgf@xd=\dimen171
-\pgf@yd=\dimen172
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count194
-\c@pgf@countb=\count195
-\c@pgf@countc=\count196
-\c@pgf@countd=\count197
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count198
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
-File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
-File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count199
-\pgfsyssoftpath@bigbuffer@items=\count266
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
-File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen173
-\pgfmath@count=\count267
-\pgfmath@box=\box48
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count268
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
-File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen174
-\pgf@picmaxx=\dimen175
-\pgf@picminy=\dimen176
-\pgf@picmaxy=\dimen177
-\pgf@pathminx=\dimen178
-\pgf@pathmaxx=\dimen179
-\pgf@pathminy=\dimen180
-\pgf@pathmaxy=\dimen181
-\pgf@xx=\dimen182
-\pgf@xy=\dimen183
-\pgf@yx=\dimen184
-\pgf@yy=\dimen185
-\pgf@zx=\dimen186
-\pgf@zy=\dimen187
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen188
-\pgf@path@lasty=\dimen189
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
-File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen190
-\pgf@shorten@start@additional=\dimen191
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
-File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count269
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen192
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
-File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen193
-\pgf@pt@y=\dimen194
-\pgf@pt@temp=\dimen195
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
-File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
-File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
-File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen196
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
-File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen197
-\pgf@sys@shading@range@num=\count270
-\pgf@shadingcount=\count271
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
-File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
-File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box52
-))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
-File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
-File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
-File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
-tex
-File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
-File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box53
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
-File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
-Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen198
-\pgf@nodesepend=\dimen199
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen256
-\pgffor@skip=\dimen257
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
-))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
-Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count272
-\pgfplotmarksize=\dimen258
-)
-\tikz@lastx=\dimen259
-\tikz@lasty=\dimen260
-\tikz@lastxsaved=\dimen261
-\tikz@lastysaved=\dimen262
-\tikz@lastmovetox=\dimen263
-\tikz@lastmovetoy=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count273
-\tikznumberofchildren=\count274
-\tikznumberofcurrentchild=\count275
-\tikz@fig@count=\count276
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
-File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count277
-\pgfmatrixcurrentcolumn=\count278
-\pgf@matrix@numberofcolumns=\count279
-)
-\tikz@expandcount=\count280
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
@@ -479,18 +142,184 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+(/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/03/13 v1.46 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count190
+\decimalpart=\count191
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks22
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count192
+\LTcapwidth=\dimen154
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count193
+\LT@rows=\count194
+\c@LT@tables=\count195
+\c@LT@chunks=\count196
+\LT@p@ftn=\toks23
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count197
+\calc@Bcount=\count198
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count199
+\calc@Cskip=\skip58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count266
+\l_MT_multwidth_dim=\dimen157
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen158
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen159
+\l_MT_above_intertext_sep=\dimen160
+\l_MT_below_intertext_sep=\dimen161
+\l_MT_above_shortintertext_sep=\dimen162
+\l_MT_below_shortintertext_sep=\dimen163
+\xmathstrut@box=\box51
+\xmathstrut@dim=\dimen164
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box52
+\extrarowheight=\dimen166
+\NC@list=\toks24
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box53
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks30
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count267
+\float@exts=\toks31
+\float@box=\box54
+\@float@everytoks=\toks32
+\@floatcapt=\box55
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2020/03/10 ver 3.1
+\numc@numwid=\dimen167
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlasy=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen168
+\enit@toks=\toks33
+\enit@inbox=\box56
+\enit@count@id=\count268
+\enitdp@description=\count269
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
@@ -530,9 +359,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen267
-\Hy@linkcounter=\count281
-\Hy@pagecounter=\count282
+\@linkdim=\dimen169
+\Hy@linkcounter=\count270
+\Hy@pagecounter=\count271
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -545,8 +374,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count283
-Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+\Hy@SavedSpaceFactor=\count272
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -554,14 +382,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count284
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count273
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen268
+\XeTeXLinkMargin=\dimen170
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -570,14 +393,14 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count285
-\Field@Width=\dimen269
-\Fld@charsize=\dimen270
+\Fld@menulength=\count274
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
 Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring OFF on input line 6450.
 Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
@@ -586,9 +409,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count286
-\c@Item=\count287
-\c@Hfootnote=\count288
+\Hy@abspage=\count275
+\c@Item=\count276
+\c@Hfootnote=\count277
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -599,8 +422,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count289
-\c@bookmark@seq@number=\count290
+\Fld@listcount=\count278
+\c@bookmark@seq@number=\count279
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -611,8 +434,83 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip61
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/sectsty/sectsty.sty
+\Hy@SectionHShift=\skip66
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/sttools/cuted.sty
+Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
+\At@ViperColsBreak=\toks34
+\v@aaa=\box57
+\v@ccc=\box58
+\lastskip@a=\skip67
+\lastskip@b=\skip68
+\lastskip@d=\skip69
+\lastbox@a=\box59
+\stripsep=\skip70
+\@viper=\box60
+\viper@penalty=\count280
+\hold@viper=\box61
+\ht@viper=\dimen173
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count281
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip71
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count282
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip72
+\skiplinenumber=\skip73
+\skiprule=\skip74
+\skiphlne=\skip75
+\skiptext=\skip76
+\skiplength=\skip77
+\algomargin=\skip78
+\skipalgocfslide=\skip79
+\algowidth=\dimen174
+\inoutsize=\dimen175
+\inoutindent=\dimen176
+\interspacetitleruled=\dimen177
+\interspacealgoruled=\dimen178
+\interspacetitleboxruled=\dimen179
+\algocf@ruledwidth=\skip80
+\algocf@inoutbox=\box62
+\algocf@inputbox=\box63
+\AlCapSkip=\skip81
+\AlCapHSkip=\skip82
+\algoskipindent=\skip83
+\algocf@nlbox=\box64
+\algocf@hangingbox=\box65
+\algocf@untilbox=\box66
+\algocf@skipuntil=\skip84
+\algocf@capbox=\box67
+\algocf@lcaptionbox=\skip85
+\algoheightruledefault=\skip86
+\algoheightrule=\skip87
+\algotitleheightruledefault=\skip88
+\algotitleheightrule=\skip89
+\c@algocfline=\count283
+\c@algocfproc=\count284
+\c@algocf=\count285
+\algocf@algoframe=\box68
+\algocf@algobox=\box69
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen180
+\epsfysize=\dimen181
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 
@@ -624,280 +522,636 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-) (./macros.tex
-\c@thm=\count291
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip90
+\subfigcapskip=\skip91
+\subfigcaptopadj=\dimen182
+\subfigbottomskip=\skip92
+\subfigcapmargin=\dimen183
+\subfiglabelskip=\skip93
+\c@subfigure=\count286
+\c@lofdepth=\count287
+\c@subtable=\count288
+\c@lotdepth=\count289
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip94
+\subfig@bottom=\skip95
+)
+(./macros.tex
+\c@thm=\count290
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count292
-\l__pdf_internal_box=\box58
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box70
 )
 (./linear.aux
 
-LaTeX Warning: Label `fig:LS_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:ex1_P1a' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_10' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_10' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_50' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_50' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_100' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_100' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_500' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_500' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LS_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LS_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LSD_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LSD_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOG_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOG_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:LOGD_P1a_999' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:LOGD_P1a_999' multiply defined.
+LaTeX Warning: Label `fig:a' multiply defined.
 
 
-LaTeX Warning: Label `fig:ex1_P1a' multiply defined.
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
 
 )
 \openout1 = `linear.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -907,14 +1161,14 @@ LaTeX Font Info:    ... okay on input line 50.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=540.60239pt
+* \textwidth=455.24411pt
 * \textheight=674.33032pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -933,23 +1187,19 @@ LaTeX Font Info:    ... okay on input line 50.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-ABD: EveryShipout initializing macros
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen271
-\scratchbox=\box59
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen272
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count292
+\scratchdimen=\dimen184
+\scratchbox=\box71
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen185
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -959,8 +1209,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 50.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring OFF on input line 71.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -972,443 +1222,458 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count299
+\c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
  (./linear.out) (./linear.out)
-\@outlinefile=\write4
-\openout4 = `linear.out'.
+\@outlinefile=\write3
+\openout3 = `linear.out'.
+
+
+Overfull \hbox (13.24463pt too wide) in paragraph at lines 76--76
+ [] 
+ []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-56.
-
+78.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 81
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 81
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 8
+1.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 81
+.
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 81.
+
+Overfull \hbox (9.56111pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/12 Consider the two-class clas-si-fi-ca-tion prob-lem of clas-si-f
+y-ing pat-terns into la-bels $\OML/cmm/m/it/12 y \OMS/cmsy/m/n/12 2 f^^@\OT1/cm
+r/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/
+12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
-<../results/ex1/acc_LS_dataset_Gamma_size_10.pdf, id=47, 578.16pt x 578.16pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (9.56111pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 Consider the two-class clas-si-fi-ca-tion prob-lem of clas-si-f
+y-ing pat-terns into la-bels $\OML/cmm/m/it/12 y \OMS/cmsy/m/n/12 2 f^^@\OT1/cm
+r/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/
+12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+<../results/ex1/acc_LS_dataset_Gamma_size_10.pdf, id=69, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_10.pdf  used 
-on input line 113.
+on input line 139.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_10.pdf, id=48, 578.16pt x 578.16p
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 139.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 139.
+<../results/ex1/samples_LS_dataset_Gamma_size_10.pdf, id=70, 578.16pt x 578.16p
 t>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf Graphic file (type pd
 f)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_10.pdf  u
-sed on input line 120.
+sed on input line 140.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf, id=49, 578.16pt x 578.16pt>
+<../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf, id=71, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf  used
- on input line 127.
+ on input line 141.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf, id=50, 578.16pt x 578.16
+<../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf, id=72, 578.16pt x 578.16
 pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf  
-used on input line 134.
+used on input line 142.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_50.pdf, id=51, 578.16pt x 578.16pt>
+<../results/ex1/acc_LS_dataset_Gamma_size_50.pdf, id=73, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_50.pdf  used 
-on input line 141.
+on input line 144.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_50.pdf, id=52, 578.16pt x 578.16p
+<../results/ex1/samples_LS_dataset_Gamma_size_50.pdf, id=74, 578.16pt x 578.16p
 t>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf Graphic file (type pd
 f)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_50.pdf  u
-sed on input line 148.
+sed on input line 145.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf, id=53, 578.16pt x 578.16pt>
+<../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf, id=75, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf  used
- on input line 155.
+ on input line 146.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf, id=54, 578.16pt x 578.16
+<../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf, id=76, 578.16pt x 578.16
 pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf  
-used on input line 162.
+used on input line 147.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_100.pdf, id=55, 578.16pt x 578.16pt>
+<../results/ex1/acc_LS_dataset_Gamma_size_100.pdf, id=77, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_100.pdf  used
- on input line 169.
+ on input line 149.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_100.pdf, id=56, 578.16pt x 578.16
+<../results/ex1/samples_LS_dataset_Gamma_size_100.pdf, id=78, 578.16pt x 578.16
 pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_100.pdf  
-used on input line 176.
+used on input line 150.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf, id=57, 578.16pt x 578.16pt>
+<../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf, id=79, 578.16pt x 578.16pt>
 
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf  use
-d on input line 183.
+d on input line 151.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf, id=58, 578.16pt x 578.1
+<../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf, id=80, 578.16pt x 578.1
 6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf 
- used on input line 190.
+ used on input line 152.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_500.pdf, id=59, 578.16pt x 578.16pt>
+<../results/ex1/acc_LS_dataset_Gamma_size_500.pdf, id=81, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_500.pdf  used
- on input line 197.
+ on input line 154.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_500.pdf, id=60, 578.16pt x 578.16
+<../results/ex1/samples_LS_dataset_Gamma_size_500.pdf, id=82, 578.16pt x 578.16
 pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_500.pdf  
-used on input line 204.
+used on input line 155.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf, id=61, 578.16pt x 578.16pt>
+<../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf, id=83, 578.16pt x 578.16pt>
 
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf  use
-d on input line 211.
+d on input line 156.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf, id=62, 578.16pt x 578.1
+<../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf, id=84, 578.16pt x 578.1
 6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf 
- used on input line 218.
+ used on input line 157.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Gamma_size_999.pdf, id=63, 578.16pt x 578.16pt>
+<../results/ex1/acc_LS_dataset_Gamma_size_999.pdf, id=85, 578.16pt x 578.16pt>
 File: ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf Graphic file (type pdf)
 <use ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Gamma_size_999.pdf  used
- on input line 225.
+ on input line 159.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Gamma_size_999.pdf, id=64, 578.16pt x 578.16
+<../results/ex1/samples_LS_dataset_Gamma_size_999.pdf, id=86, 578.16pt x 578.16
 pt>
 File: ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf Graphic file (type p
 df)
 <use ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Gamma_size_999.pdf  
-used on input line 232.
+used on input line 160.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf, id=65, 578.16pt x 578.16pt>
+<../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf, id=87, 578.16pt x 578.16pt>
 
 File: ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf  use
-d on input line 239.
+d on input line 161.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf, id=66, 578.16pt x 578.1
+<../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf, id=88, 578.16pt x 578.1
 6pt>
 File: ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf 
- used on input line 246.
+ used on input line 162.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 
-LaTeX Warning: Float too large for page by 54.19324pt on input line 253.
+LaTeX Warning: Float too large for page by 50.52661pt on input line 166.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-<../results/ex1/acc_LS_dataset_Uniform_size_10.pdf, id=67, 578.16pt x 578.16pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<../results/ex1/acc_LS_dataset_Uniform_size_10.pdf, id=92, 578.16pt x 578.16pt>
 
 File: ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_10.pdf  use
-d on input line 264.
+d on input line 181.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Uniform_size_10.pdf, id=68, 578.16pt x 578.1
+<../results/ex1/samples_LS_dataset_Uniform_size_10.pdf, id=93, 578.16pt x 578.1
 6pt>
 File: ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_10.pdf 
- used on input line 271.
+ used on input line 182.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf, id=69, 578.16pt x 578.16pt
+<../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf, id=94, 578.16pt x 578.16pt
 >
 File: ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf Graphic file (type pdf
 )
 <use ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf  us
-ed on input line 278.
+ed on input line 183.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf, id=70, 578.16pt x 578.
+<../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf, id=95, 578.16pt x 578.
 16pt>
 File: ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf Graphic file (type
  pdf)
 <use ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf
-  used on input line 285.
+  used on input line 184.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Uniform_size_50.pdf, id=71, 578.16pt x 578.16pt>
+<../results/ex1/acc_LS_dataset_Uniform_size_50.pdf, id=96, 578.16pt x 578.16pt>
 
 File: ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf Graphic file (type pdf)
 
 <use ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_50.pdf  use
-d on input line 292.
+d on input line 186.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Uniform_size_50.pdf, id=72, 578.16pt x 578.1
+<../results/ex1/samples_LS_dataset_Uniform_size_50.pdf, id=97, 578.16pt x 578.1
 6pt>
 File: ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf Graphic file (type 
 pdf)
 <use ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_50.pdf 
- used on input line 299.
+ used on input line 187.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf, id=73, 578.16pt x 578.16pt
+<../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf, id=98, 578.16pt x 578.16pt
 >
 File: ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf Graphic file (type pdf
 )
 <use ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf  us
-ed on input line 306.
+ed on input line 188.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf, id=74, 578.16pt x 578.
+<../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf, id=99, 578.16pt x 578.
 16pt>
 File: ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf Graphic file (type
  pdf)
 <use ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf
-  used on input line 313.
+  used on input line 189.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Uniform_size_100.pdf, id=75, 578.16pt x 578.16pt
->
+<../results/ex1/acc_LS_dataset_Uniform_size_100.pdf, id=100, 578.16pt x 578.16p
+t>
 File: ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf Graphic file (type pdf
 )
 <use ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_100.pdf  us
-ed on input line 320.
+ed on input line 191.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Uniform_size_100.pdf, id=76, 578.16pt x 578.
-16pt>
+<../results/ex1/samples_LS_dataset_Uniform_size_100.pdf, id=101, 578.16pt x 578
+.16pt>
 File: ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf Graphic file (type
  pdf)
 <use ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_100.pdf
-  used on input line 327.
+  used on input line 192.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf, id=77, 578.16pt x 578.16p
-t>
+<../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf, id=102, 578.16pt x 578.16
+pt>
 File: ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf Graphic file (type pd
 f)
 <use ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf  u
-sed on input line 334.
+sed on input line 193.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf, id=78, 578.16pt x 578
-.16pt>
+<../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf, id=103, 578.16pt x 57
+8.16pt>
 File: ../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf Graphic file (typ
 e pdf)
 <use ../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_100.pd
-f  used on input line 341.
+f  used on input line 194.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Uniform_size_500.pdf, id=79, 578.16pt x 578.16pt
->
+<../results/ex1/acc_LS_dataset_Uniform_size_500.pdf, id=104, 578.16pt x 578.16p
+t>
 File: ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf Graphic file (type pdf
 )
 <use ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_500.pdf  us
-ed on input line 348.
+ed on input line 196.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Uniform_size_500.pdf, id=80, 578.16pt x 578.
-16pt>
+<../results/ex1/samples_LS_dataset_Uniform_size_500.pdf, id=105, 578.16pt x 578
+.16pt>
 File: ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf Graphic file (type
  pdf)
 <use ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_500.pdf
-  used on input line 355.
+  used on input line 197.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf, id=81, 578.16pt x 578.16p
-t>
+<../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf, id=106, 578.16pt x 578.16
+pt>
 File: ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf Graphic file (type pd
 f)
 <use ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf  u
-sed on input line 362.
+sed on input line 198.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf, id=82, 578.16pt x 578
-.16pt>
+<../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf, id=107, 578.16pt x 57
+8.16pt>
 File: ../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf Graphic file (typ
 e pdf)
 <use ../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_500.pd
-f  used on input line 369.
+f  used on input line 199.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Uniform_size_999.pdf, id=83, 578.16pt x 578.16pt
->
+<../results/ex1/acc_LS_dataset_Uniform_size_999.pdf, id=108, 578.16pt x 578.16p
+t>
 File: ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf Graphic file (type pdf
 )
 <use ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Uniform_size_999.pdf  us
-ed on input line 376.
+ed on input line 201.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LS_dataset_Uniform_size_999.pdf, id=84, 578.16pt x 578.
-16pt>
+<../results/ex1/samples_LS_dataset_Uniform_size_999.pdf, id=109, 578.16pt x 578
+.16pt>
 File: ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf Graphic file (type
  pdf)
 <use ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LS_dataset_Uniform_size_999.pdf
-  used on input line 383.
+  used on input line 202.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf, id=85, 578.16pt x 578.16p
-t>
+<../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf, id=110, 578.16pt x 578.16
+pt>
 File: ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf Graphic file (type pd
 f)
 <use ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf  u
-sed on input line 390.
+sed on input line 203.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf, id=86, 578.16pt x 578
-.16pt>
+<../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf, id=111, 578.16pt x 57
+8.16pt>
 File: ../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf Graphic file (typ
 e pdf)
 <use ../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf>
 Package pdftex.def Info: ../results/ex1/samples_LOG_dataset_Uniform_size_999.pd
-f  used on input line 397.
+f  used on input line 204.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 
-LaTeX Warning: Float too large for page by 54.19324pt on input line 404.
+LaTeX Warning: Float too large for page by 50.52661pt on input line 208.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
-<../results/ex1/acc_LS_dataset_Normal_size_10.pdf, id=87, 578.16pt x 578.16pt>
-File: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf Graphic file (type pdf)
-<use ../results/ex1/acc_LS_dataset_Normal_size_10.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf  used
- on input line 415.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Normal_size_10.pdf, id=88, 578.16pt x 578.16pt>
-
-File: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf Graphic file (type pdf)
-
-<use ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf  use
-d on input line 422.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Normal_size_50.pdf, id=89, 578.16pt x 578.16pt>
-File: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf Graphic file (type pdf)
-<use ../results/ex1/acc_LS_dataset_Normal_size_50.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf  used
- on input line 429.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Normal_size_50.pdf, id=90, 578.16pt x 578.16pt>
-
-File: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf Graphic file (type pdf)
-
-<use ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf  use
-d on input line 436.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Normal_size_100.pdf, id=91, 578.16pt x 578.16pt>
-
-File: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf Graphic file (type pdf)
-
-<use ../results/ex1/acc_LS_dataset_Normal_size_100.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf  use
-d on input line 443.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Normal_size_100.pdf, id=92, 578.16pt x 578.16pt
->
-File: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf Graphic file (type pdf
-)
-<use ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf  us
-ed on input line 450.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Normal_size_500.pdf, id=93, 578.16pt x 578.16pt>
-
-File: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf Graphic file (type pdf)
-
-<use ../results/ex1/acc_LS_dataset_Normal_size_500.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf  use
-d on input line 457.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Normal_size_500.pdf, id=94, 578.16pt x 578.16pt
->
-File: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf Graphic file (type pdf
-)
-<use ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf  us
-ed on input line 464.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LS_dataset_Normal_size_999.pdf, id=95, 578.16pt x 578.16pt>
-
-File: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf Graphic file (type pdf)
-
-<use ../results/ex1/acc_LS_dataset_Normal_size_999.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf  use
-d on input line 471.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex1/acc_LOG_dataset_Normal_size_999.pdf, id=96, 578.16pt x 578.16pt
->
-File: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf Graphic file (type pdf
-)
-<use ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf>
-Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf  us
-ed on input line 478.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--495
-
- []
-
-[2] [3 <../results/ex1/acc_LS_dataset_Gamma_size_10.pdf> <../results/ex1/sample
+[3] [4 <../results/ex1/acc_LS_dataset_Gamma_size_10.pdf> <../results/ex1/sample
 s_LS_dataset_Gamma_size_10.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
@@ -1504,7 +1769,7 @@ n a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
 ataset_Gamma_size_999.pdf): PDF inclusion: multiple pdfs with page group includ
 ed in a single page
->] [4 <../results/ex1/acc_LS_dataset_Uniform_size_10.pdf> <../results/ex1/sampl
+>] [5 <../results/ex1/acc_LS_dataset_Uniform_size_10.pdf> <../results/ex1/sampl
 es_LS_dataset_Uniform_size_10.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LS_da
@@ -1600,8 +1865,116 @@ et_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group included
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/samples_LOG_d
 ataset_Uniform_size_999.pdf): PDF inclusion: multiple pdfs with page group incl
 uded in a single page
->] [5 <../results/ex1/acc_LS_dataset_Normal_size_10.pdf> <../results/ex1/acc_LO
-G_dataset_Normal_size_10.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+<../results/ex1/acc_LS_dataset_Normal_size_10.pdf, id=1088, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf Graphic file (type pdf)
+<use ../results/ex1/acc_LS_dataset_Normal_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_10.pdf  used
+ on input line 223.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_10.pdf, id=1089, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_10.pdf  use
+d on input line 224.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_50.pdf, id=1090, 578.16pt x 578.16pt
+>
+File: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf Graphic file (type pdf)
+<use ../results/ex1/acc_LS_dataset_Normal_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_50.pdf  used
+ on input line 225.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_50.pdf, id=1091, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_50.pdf  use
+d on input line 226.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_100.pdf, id=1092, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_100.pdf  use
+d on input line 228.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_100.pdf, id=1093, 578.16pt x 578.16
+pt>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_100.pdf  us
+ed on input line 229.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_500.pdf, id=1094, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_500.pdf  use
+d on input line 230.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_500.pdf, id=1095, 578.16pt x 578.16
+pt>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_500.pdf  us
+ed on input line 231.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LS_dataset_Normal_size_999.pdf, id=1096, 578.16pt x 578.16p
+t>
+File: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf Graphic file (type pdf)
+
+<use ../results/ex1/acc_LS_dataset_Normal_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LS_dataset_Normal_size_999.pdf  use
+d on input line 233.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex1/acc_LOG_dataset_Normal_size_999.pdf, id=1097, 578.16pt x 578.16
+pt>
+File: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf Graphic file (type pdf
+)
+<use ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf>
+Package pdftex.def Info: ../results/ex1/acc_LOG_dataset_Normal_size_999.pdf  us
+ed on input line 234.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[6] [7 <../results/ex1/acc_LS_dataset_Normal_size_10.pdf> <../results/ex1/acc_L
+OG_dataset_Normal_size_10.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
 et_Normal_size_10.pdf): PDF inclusion: multiple pdfs with page group included i
@@ -1647,37 +2020,663 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex1/acc_LOG_datas
 et_Normal_size_999.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 499--501
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 523.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 523.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0.pdf, id=1408, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_clas
+s_0.pdf  used on input line 259.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1.pdf, id=1409, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_clas
+s_1.pdf  used on input line 260.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_2.pdf, id=1410, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_2.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_2.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_clas
+s_2.pdf  used on input line 261.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_0.pdf, id=1411, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_0.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_0.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_clas
+s_0.pdf  used on input line 263.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_1.pdf, id=1412, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_1.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_1.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_clas
+s_1.pdf  used on input line 264.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_2.pdf, id=1413, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_2.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_2.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_clas
+s_2.pdf  used on input line 265.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_0.pdf, id=1414, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_0.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_0.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_clas
+s_0.pdf  used on input line 267.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_1.pdf, id=1415, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_1.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_1.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_clas
+s_1.pdf  used on input line 268.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_2.pdf, id=1416, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_2.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_2.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_clas
+s_2.pdf  used on input line 269.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_0.pdf, id=1417, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_0.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_0.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_clas
+s_0.pdf  used on input line 271.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_1.pdf, id=1418, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_1.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_1.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_clas
+s_1.pdf  used on input line 272.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_2.pdf, id=1419, 578.16
+pt x 578.16pt>
+File: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_2.pdf Graphic fil
+e (type pdf)
+<use ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_2.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_clas
+s_2.pdf  used on input line 273.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+<../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf, id=1422, 578.16pt x 578
+.16pt>
+File: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf Graphic file (type 
+pdf)
+<use ../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf 
+ used on input line 292.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSMC_dataset_iris_fraction_0.4.pdf, id=1423, 578.16pt x 578
+.16pt>
+File: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.4.pdf Graphic file (type 
+pdf)
+<use ../results/ex2/acc_LSMC_dataset_iris_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.4.pdf 
+ used on input line 293.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSMC_dataset_iris_fraction_0.6.pdf, id=1424, 578.16pt x 578
+.16pt>
+File: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.6.pdf Graphic file (type 
+pdf)
+<use ../results/ex2/acc_LSMC_dataset_iris_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.6.pdf 
+ used on input line 294.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf, id=1425, 578.16pt x 578
+.16pt>
+File: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf Graphic file (type 
+pdf)
+<use ../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf 
+ used on input line 295.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf, id=1427, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.2.pdf  used on input line 311.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf, id=1428, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.4.pdf  used on input line 312.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf, id=1429, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.6.pdf  used on input line 313.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf, id=1430, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.8.pdf  used on input line 314.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf, id=1431, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.2.pdf  used on input line 316.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf, id=1432, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.4.pdf  used on input line 317.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf, id=1433, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.6.pdf  used on input line 318.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf, id=1434, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.8.pdf  used on input line 319.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+[8] [9 <../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0.pdf> <../resu
+lts/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.2_class_1.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.2_class_2.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_0.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.4_class_0.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.4_class_1.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.4_class_2.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_0.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.6_class_0.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.6_class_1.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.6_class_2.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_0.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.8_class_0.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.8_class_1.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+> <../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
+set_iris_fraction_0.8_class_2.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
+>]
+<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf, id=183
+9, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf Gr
+aphic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
+fraction_0.2.pdf  used on input line 326.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf, id=184
+0, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf Gr
+aphic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
+fraction_0.4.pdf  used on input line 327.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf, id=184
+1, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf Gr
+aphic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
+fraction_0.6.pdf  used on input line 328.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf, id=184
+2, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf Gr
+aphic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
+fraction_0.8.pdf  used on input line 329.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf, id=18
+43, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf G
+raphic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
+_fraction_0.2.pdf  used on input line 331.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf, id=18
+44, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf G
+raphic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
+_fraction_0.4.pdf  used on input line 332.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf, id=18
+45, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf G
+raphic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
+_fraction_0.6.pdf  used on input line 333.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf, id=18
+46, 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf G
+raphic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
+_fraction_0.8.pdf  used on input line 334.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf, id=1847, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.2.pdf  used on input line 341.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf, id=1848, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.4.pdf  used on input line 342.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf, id=1849, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.6.pdf  used on input line 343.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf, id=1850, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.8.pdf  used on input line 344.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf, id=1851,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.2.pdf  used on input line 346.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf, id=1852,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.4.pdf  used on input line 347.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf, id=1853,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.6.pdf  used on input line 348.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf, id=1854,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.8.pdf  used on input line 349.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_40.pdf, id=1855, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_40.pdf  used on input line 362.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_60.pdf, id=1856, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_60.pdf  used on input line 363.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_80.pdf, id=1857, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_80.pdf  used on input line 364.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_99.pdf, id=1858, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_99.pdf  used on input line 365.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf, id=1859, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_40.pdf  used on input line 371.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf, id=1860, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_60.pdf  used on input line 372.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf, id=1861, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_80.pdf  used on input line 373.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf, id=1862, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_99.pdf  used on input line 374.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
+ [10 <../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf> <../results/ex2/ac
+c_LSMC_dataset_iris_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSMC_data
+set_iris_fraction_0.4.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+> <../results/ex2/acc_LSMC_dataset_iris_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSMC_data
+set_iris_fraction_0.6.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+> <../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSMC_data
+set_iris_fraction_0.8.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+>] [11 <../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf> <../
+results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_none_fraction_0.4.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_none_fraction_0.6.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_none_fraction_0.8.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_none_fraction_0.2.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_none_fraction_0.4.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_none_fraction_0.6.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_none_fraction_0.8.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_normalise_fraction_0.2.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_normalise_fraction_0.4.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_normalise_fraction_0.6.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_normalise_fraction_0.8.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_normalise_fraction_0.2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_normalise_fraction_0.4.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_normalise_fraction_0.6.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_normalise_fraction_0.8.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>] [12 <../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf> <.
+./results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_whiten_fraction_0.4.pdf): PDF inclusion: multiple pdfs with pag
+e group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_whiten_fraction_0.6.pdf): PDF inclusion: multiple pdfs with pag
+e group included in a single page
+> <../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
+t_german_method_whiten_fraction_0.8.pdf): PDF inclusion: multiple pdfs with pag
+e group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_whiten_fraction_0.2.pdf): PDF inclusion: multiple pdfs with pa
+ge group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_whiten_fraction_0.4.pdf): PDF inclusion: multiple pdfs with pa
+ge group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_whiten_fraction_0.6.pdf): PDF inclusion: multiple pdfs with pa
+ge group included in a single page
+> <../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
+et_german_method_whiten_fraction_0.8.pdf): PDF inclusion: multiple pdfs with pa
+ge group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_random_size_40.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_random_size_40.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_random_size_60.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_random_size_60.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_random_size_80.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_random_size_80.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_random_size_99.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_random_size_99.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_uniform_size_40.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_uniform_size_60.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_uniform_size_80.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
+gression_subsample_uniform_size_99.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  (./linear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 523.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 523.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
 Package rerunfilecheck Info: File `linear.out' has not changed.
-(rerunfilecheck)             Checksum: 8F7C26188836F6D4C6B802985C542B60;298.
+(rerunfilecheck)             Checksum: 85944B42416C0B370F7916D3F50D535A;547.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 523.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
  ) 
 Here is how much of TeX's memory you used:
- 18872 strings out of 480608
- 362426 string characters out of 5903629
- 604626 words of memory out of 5000000
- 34322 multiletter control sequences out of 15000+600000
- 548665 words of font info for 65 fonts, out of 8000000 for 9000
+ 11534 strings out of 480608
+ 202033 string characters out of 5903629
+ 457170 words of memory out of 5000000
+ 26883 multiletter control sequences out of 15000+600000
+ 559218 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,492b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,31p,793b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
 texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
@@ -1689,12 +2688,13 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf
 dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist
-/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on linear.pdf (6 pages, 1210203 bytes).
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/
+fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on linear.pdf (12 pages, 1730572 bytes).
 PDF statistics:
- 1391 PDF objects out of 1440 (max. 8388607)
- 473 compressed objects within 5 object streams
- 21 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3285 PDF objects out of 3580 (max. 8388607)
+ 972 compressed objects within 10 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 555 words of extra memory for PDF output out of 10000 (max. 10000000)
 

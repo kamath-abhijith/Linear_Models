@@ -134,7 +134,7 @@ def plot_signal(x, y, ax=None, title_text=None, plot_colour='blue',
         linewidth=line_width, label=legend_label)
 
     if legend_label and legend_show:
-        plt.legend(loc=legend_loc, frameon=True, framealpha=0.8, facecolor='white')
+        plt.legend(ncol=1, loc=legend_loc, frameon=True, framealpha=0.8, facecolor='white')
 
     plt.xlabel(r'$x$')
     plt.ylabel(r'$y$')

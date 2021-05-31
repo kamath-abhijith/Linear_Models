@@ -1,15 +1,36 @@
 \documentclass[12pt, a4 paper]{article}
 % Set target color model to RGB
-\usepackage[inner=1cm,outer=1cm,top=3cm,bottom=3cm]{geometry}
-\usepackage{setspace}
-\usepackage{verbatim}
-\usepackage{subcaption}
-\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,tikz,amssymb}
+\usepackage[inner=2.5cm,outer=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{latexsym}           % math symbols that were omitted in latex2e
+\usepackage{amsbsy}             % bold greek defs
+\usepackage{amsmath,graphicx}
 \usepackage{bbm}
-\usepackage{fancyhdr}
-\usepackage[colorlinks=true, urlcolor=blue,  linkcolor=blue, citecolor=blue]{hyperref}
-\usepackage{subcaption}
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{graphics}
+\usepackage{acronym}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{setspace}
+\usepackage{cite}
+\usepackage{array}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{wasysym,url}
+\usepackage{fixltx2e,amsmath}
+\usepackage{setspace,float}
+\usepackage{color}
+\usepackage{cases,bm}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{mathtools,cuted}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{epsfig}
+\usepackage{color}
 \usepackage{sectsty}
+\usepackage{subfigure}
+\DontPrintSemicolon
 \hypersetup{%
 pdfauthor={Abijith J Kamath},%
 pdftitle={Homework},%
@@ -53,14 +74,15 @@ pdfproducer={PDFLaTeX},%
 
 
 
-\section*{Introduction}
+
+\section{Introduction}
 \label{sec:intro}
 
 Let patterns be in $\rr^{d}$ and consider the $2$-class classification problem - given a pattern $\bx$, classify the pattern with a label $y$. In classification using linear least-squares and logistic regression the training data $\{\bx^{(i)}, y^{(i)}\}_{i=1}^{n}$ is used to directly learn a discriminative function that scores the new patterns, and the classification is achieved by thresholding the score.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\subsection*{Linear Least-Squares Classification}
+\subsection{Linear Least-Squares Classification}
 \label{subsec:linearRegression}
 
 Consider the two-class classification problem of classifying patterns into labels $y \in \{-1, +1\}$. The discriminative function in linear least-squares classification is a function that is linear in the weights, using features of the patterns. In this case, the patterns are directly used as the features, and the discriminative function is given as:
@@ -68,18 +90,20 @@ Consider the two-class classification problem of classifying patterns into label
 	f(\bx) = \sum_{i=1}^{d} w_{i} x_{i} + w_{0} = \bW^{\TT} \tilde{\bx},
 \label{eq:linearDiscriminator}
 \end{equation}
-where $\bW = [w_{0}, w_{1}, \cdots, w_{d}] \in \rr^{d+1}$ are the weights to be learnt from the training samples and $\tilde{\bx}$ is the augmented feature vector with $1$ padded as its first entry. The classification is then done using the sign of the score function $f(\bx)$. This can be easily extended to a multi-class classifier by consider the labels to be one-hot vectors and choosing the class that gives the largest score.
+where $\bW = [w_{0}, w_{1}, \cdots, w_{d}] \in \rr^{d+1}$ are the weights to be learnt from the training samples and $\tilde{\bx}$ is the augmented feature vector with $1$ padded as its first entry. The classification is then done using the sign of the score function $f(\bx)$. \\
+
+This can be easily extended to a multi-class classifier by consider similar score functions for each class. The labels are converted to one-hot vectors. The decision rule is to choose the class that gives the largest score. \\
 
 The weights are obtained by minimising the $\ell^{2}$-norm between the predictions $f(\bx^{i})$ and $y^{(i)}$:
 \begin{equation}
 	J(\bW) = \frac{1}{2} \sum_{i=1}^{n} \left( \bW^{\TT}\bx^{(i)} - y^{(i)} \right)^{2}.
 \label{eq:lsClassifier}
 \end{equation}
-The minimiser of $J(\bW)$ can be obtained in closed form as $\bW^{*} = \bA^{\dagger} \by$, where $\bA = [\bx^{(1)} \; \bx^{(2)} \; \cdots ; \bx^{(n)}]^{\TT}$ and $\by = [y^{(1)} \; y^{(2)} \; \cdots \; y^{(n)}]^{\TT}$.
+The minimiser of $J(\bW)$ can be obtained in closed form as $\bW^{*} = \bA^{\dagger} \by$, where $\bA = [\bx^{(1)} \; \bx^{(2)} \; \cdots ; \bx^{(n)}]^{\TT}$ and $\by = [y^{(1)} \; y^{(2)} \; \cdots \; y^{(n)}]^{\TT}$. This directly extends to the multi-class classifier with the labels in $\by$ taken to be one-hot vectors. The closed form solution will then give the complete weight matrix.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\subsection*{Logistic Regression}
+\subsection{Logistic Regression}
 \label{subsec:logisticRegression}
 
 Consider the two-class classification problem of classifying patterns into labels $y \in \{-1, +1\}$. The discriminative function in logistic regression is the sigmoid:
@@ -87,14 +111,14 @@ Consider the two-class classification problem of classifying patterns into label
 	f(\bx) = \frac{1}{1+e^{-\bW^{\TT}\tilde{\bx}}},
 \label{eq:logisticDiscriminator}
 \end{equation}
-which is treated as the probability of assigning $y=+1$ to the pattern $\bx$ ($\bW$ and $\tilde{\bx}$ have the same meaning as above). If the score is less than $1/2$, the pattern is classified into $y=-1$.
+which is treated as the probability of assigning $y=+1$ to the pattern $\bx$ ($\bW$ and $\tilde{\bx}$ have the same meaning as above). If the score is less than $1/2$, the pattern is classified into $y=-1$. \\
 
 The weights are obtained from the training samples by maximising the likelihood using gradient descent. The weights cannot be obtained in closed form like in Linear Least-Squares classification. The gradient descent updates for the weights is given by:
 \begin{equation}
 	\bW^{+} = \bW + \eta \sum_{i=1}^{n} \left( y^{(i)} - \sigma(\bW^{\TT}\tilde{\bx}^{(i)}) \right) \tilde{\bx}^{(i)},
 \label{eq:logGD}
 \end{equation}
-where $\sigma$ is the sigmoid function and $\eta$ is the step size.
+where $\sigma$ is the sigmoid function and $\eta$ is the step size. \\
 
 Logistic regression can be extended to multi-class classification by taking the score function for each class to be the softmax function, which is interpreted as assigning the probability of the pattern being in each class and then choosing the class that gives the highest probability.
 
@@ -106,383 +130,114 @@ Logistic regression can be extended to multi-class classification by taking the 
 \problem{Problem (1.a) Gamma-distributed Classes in 2D}
 \label{prob:1.a}
 
-\begin{figure}[!htbp]
-\centering
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_10.pdf}
-       \caption{LS, size $10$}
-       \label{fig:LS_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_10.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_10.pdf}
-       \caption{LOG, size $10$}
-       \label{fig:LOG_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_10.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_10}
-    \end{subfigure}
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_50.pdf}
-       \caption{LS, size $50$}
-       \label{fig:LS_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_50.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_50.pdf}
-       \caption{LOG, size $50$}
-       \label{fig:LOG_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_50.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_50}
-    \end{subfigure}
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_100.pdf}
-       \caption{LS, size $100$}
-       \label{fig:LS_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_100.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_100.pdf}
-       \caption{LOG, size $100$}
-       \label{fig:LOG_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_100.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_100}
-    \end{subfigure} 
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_500.pdf}
-       \caption{LS, size $500$}
-       \label{fig:LS_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_500.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_500.pdf}
-       \caption{LOG, size $500$}
-       \label{fig:LOG_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_500.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_500}
-    \end{subfigure} 
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_999.pdf}
-       \caption{LS, size $999$}
-       \label{fig:LS_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_999.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_999.pdf}
-       \caption{LOG, size $999$}
-       \label{fig:LOG_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_999.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_999}
-    \end{subfigure}     
+Let the class conditionals be modelled as Gamma distributions with different shape and scale parameters. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-\caption{Linear Least-Squares Classification and Logistic Regression.}
-\label{fig:ex1_P1a}
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gamma} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $100$ realisations and one of the discriminant functions is plotted. \\
+
+\begin{figure}
+\centering
+\subfigure[LS, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_10}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_10}}
+\subfigure[LOG, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_10}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_10}}
+
+\subfigure[LS, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_50}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_50}}
+\subfigure[LOG, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_50}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_50}}
+
+\subfigure[LS, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_100}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_100}}
+\subfigure[LOG, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_100}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_100}}
+
+\subfigure[LS, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_500}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_500}}
+\subfigure[LOG, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_500}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_500}}
+
+\subfigure[LS, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Gamma_size_999}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Gamma_size_999}}
+\subfigure[LOG, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Gamma_size_999}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Gamma_size_999}}
+
+\caption{Linear Least-Squares Classifier and Logistic Regression on Gamma distributed data.}
+\label{fig:LS_LOG_Gamma}
 \end{figure}
+
+{\it \bfseries Inferences:} It can be seen that the accuracy increases with increasing training size from $10$, $50$, $100$, $500$ and $999$ in both classifiers. Between the classifiers, logistic regression consistently gives better accuracy. Since the $x_{1}$ and $x_{2}$ coordinates are independent and Gamma distributed, it is known that the linear classifier has a slope of $-1$. It can be seen that logistic regression achieves this with fewer training samples. This is reflected in the accuracy. \\
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \problem{Problem (1.b) Uniform-distributed Classes in 2D}
 \label{prob:1.b}
 
-\begin{figure}[!htbp]
-\centering
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_10.pdf}
-       \caption{LS, size $10$}
-       \label{fig:LS_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_10.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_10.pdf}
-       \caption{LOG, size $10$}
-       \label{fig:LOG_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_10.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_10}
-    \end{subfigure}
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_50.pdf}
-       \caption{LS, size $50$}
-       \label{fig:LS_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_50.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_50.pdf}
-       \caption{LOG, size $50$}
-       \label{fig:LOG_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_50.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_50}
-    \end{subfigure}
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_100.pdf}
-       \caption{LS, size $100$}
-       \label{fig:LS_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_100.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_100.pdf}
-       \caption{LOG, size $100$}
-       \label{fig:LOG_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_100.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_100}
-    \end{subfigure} 
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_500.pdf}
-       \caption{LS, size $500$}
-       \label{fig:LS_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_500.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_500.pdf}
-       \caption{LOG, size $500$}
-       \label{fig:LOG_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_500.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_500}
-    \end{subfigure} 
-    
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_999.pdf}
-       \caption{LS, size $999$}
-       \label{fig:LS_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_999.pdf}
-       \caption{LS Classifier}
-       \label{fig:LSD_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_999.pdf}
-       \caption{LOG, size $999$}
-       \label{fig:LOG_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_999.pdf}
-       \caption{LOG Classifier}
-       \label{fig:LOGD_P1a_999}
-    \end{subfigure}     
+Let the class conditionals be modelled as uniform distributions with different supports. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-\caption{Linear Least-Squares Classification and Logistic Regression.}
-\label{fig:ex1_P1a}
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Uniform} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $100$ realisations and one of the discriminant functions is plotted. \\
+
+\begin{figure}
+\centering
+\subfigure[LS, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_10}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_10}}
+\subfigure[LOG, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_10}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_10}}
+
+\subfigure[LS, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_50}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_50}}
+\subfigure[LOG, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_50}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_50}}
+
+\subfigure[LS, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_100}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_100}}
+\subfigure[LOG, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_100}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_100}}
+
+\subfigure[LS, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_500}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_500}}
+\subfigure[LOG, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_500}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_500}}
+
+\subfigure[LS, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Uniform_size_999}}
+\subfigure[LS Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LS_dataset_Uniform_size_999}}
+\subfigure[LOG, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Uniform_size_999}}
+\subfigure[LOG Classifier]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/samples_LOG_dataset_Uniform_size_999}}
+
+\caption{Linear Least-Squares Classifier and Logistic Regression on Uniform distributed data.}
+\label{fig:LS_LOG_Uniform}
 \end{figure}
+
+{\it \bfseries Inferences:} It can be seen that the accuracy of the linear classifier does not vary with increasing training size. Since the least-squares cost equally penalises all points, class $0$ is always perfectly classified and the discriminant function always has a large offset owing to the larger spread of class $1$. In logistic regression, the accuracy increases with increasing training size. It is known that the Bayes' classifier for such class conditionals passes through the points of intersection of the squares generated by the limits of the class conditionals. With increasing training size, logistic regression approximately achieves the Bayes' classifier. In this case, logistic regression outperforms linear least-squares classification. \\
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \problem{Problem (1.c) Gaussian-distributed Classes in 10D}
 \label{prob:1.c}
 
-\begin{figure}[!htbp]
-\centering
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_10.pdf}
-       \caption{LS, size $10$}
-       \label{fig:LS_P1a_10}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_10.pdf}
-       \caption{LOG, size $10$}
-       \label{fig:LOG_P1a_10}
-    \end{subfigure}
-\quad  
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_50.pdf}
-       \caption{LS, size $50$}
-       \label{fig:LS_P1a_50}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_50.pdf}
-       \caption{LOG, size $50$}
-       \label{fig:LOG_P1a_50}
-    \end{subfigure}
-\quad   
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_100.pdf}
-       \caption{LS, size $100$}
-       \label{fig:LS_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_100.pdf}
-       \caption{LOG, size $100$}
-       \label{fig:LOG_P1a_100}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_500.pdf}
-       \caption{LS, size $500$}
-       \label{fig:LS_P1a_500}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_500.pdf}
-       \caption{LOG, size $500$}
-       \label{fig:LOG_P1a_500}
-    \end{subfigure}
-\quad   
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_999.pdf}
-       \caption{LS, size $999$}
-       \label{fig:LS_P1a_999}
-    \end{subfigure}
-\quad
-    \begin{subfigure}[!htbp]{0.2\textwidth}
-       \centering
-       \includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_999.pdf}
-       \caption{LOG, size $999$}
-       \label{fig:LOG_P1a_999}
-    \end{subfigure}
+Let the class conditionals be modelled as Gaussian distributions with different mean and identity covariance. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-\caption{Linear Least-Squares Classification and Logistic Regression.}
-\label{fig:ex1_P1a}
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gaussian} shows the accuracies of classification in confusion matrices. The classifier and the training size used are mentioned in the respective captions. The accuracies reported are averaged over $100$ realisations. \\
+
+\begin{figure}
+\centering
+\subfigure[LS, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_10}}
+\subfigure[LOG, Size $10$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_10}}
+\subfigure[LS, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_50}}
+\subfigure[LOG, Size $50$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_50}}
+
+\subfigure[LS, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_100}}
+\subfigure[LOG, Size $100$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_100}}
+\subfigure[LS, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_500}}
+\subfigure[LOG, Size $500$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_500}}
+
+\subfigure[LS, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LS_dataset_Normal_size_999}}
+\subfigure[LOG, Size $999$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex1/acc_LOG_dataset_Normal_size_999}}
+
+\caption{Linear Least-Squares Classifier and Logistic Regression on Gaussian distributed data.}
+\label{fig:LS_LOG_Gaussian}
 \end{figure}
+
+{\it \bfseries Inferences:} It can be seen that the accuracy of both the classifiers increase to the similar values. Since the class conditionals are Gaussian and have identity covariance, the linear least-squares classifier and logistic regression give approximately the same discriminant function. \\
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -490,14 +245,60 @@ Logistic regression can be extended to multi-class classification by taking the 
 \section{Multi-Class Linear Model on Iris Dataset}
 \label{sec:bayes20D}
 
-\problem{Problem (2.i) One vs. Rest}
+The \texttt{iris} data set contains features in $\rr^{5}$ and classifies into three classes -- Iris Sentosa, Iris Versicolour and Iris Virginica.
+
+\problem{Problem (2.i) One vs. Rest Classifier}
 \label{prob:2.i}
 
+In the one vs. rest mode, three binary classifiers are learnt as Iris Sentosa vs. not Iris Sentosa, Iris Versicolour and not Iris Versicolour and Iris Virginica and not Iris Virginica. In this mode of multi-class classification, ambiguities may arise when multiple class flag the feature into the true class. The linear least-squares classifier are trained by minimising (\ref{eq:lsClassifier}). \\
+
+{\it \bfseries Results:} Figure \ref{fig:LSOA_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $100$ realisations. \\
+
+\begin{figure}
+\centering
+\subfigure[Class $0$, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0}}
+\subfigure[Class $1$, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1}}
+\subfigure[Class $2$, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_2}}
+
+\subfigure[Class $0$, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_0}}
+\subfigure[Class $1$, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_1}}
+\subfigure[Class $2$, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.4_class_2}}
+
+\subfigure[Class $0$, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_0}}
+\subfigure[Class $1$, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_1}}
+\subfigure[Class $2$, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.6_class_2}}
+
+\subfigure[Class $0$, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_0}}
+\subfigure[Class $1$, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_1}}
+\subfigure[Class $2$, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSOA_dataset_iris_fraction_0.8_class_2}}
+
+\caption{One vs. Rest Linear Least-Squares Classifier with varying train-test split fraction.}
+\label{fig:LSOA_Iris}
+\end{figure}
+
+{\it \bfseries Inference:} In general, it can be seen that the accuracy of classification increases in each class with increasing test size. However, this does not give any information to resolve ambiguities. The scores corresponding to each class are lost, and three decisions are obtained. Such multi-class classification is useful when the decision at interest is to know if the class is Iris Sentosa vs. not Iris Sentosa, or so on and the decision of Iris Versicolour and Iris Viriginica are irrelevant.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\problem{Problem (2.ii) One vs. All}
+\problem{Problem (2.ii) Multiclass Classifier}
 \label{prob:2.ii}
+
+In the multi-class mode, one $3$-class classifier using the method described in Section \ref{subsec:linearRegression}, by considering labels to be corresponding one-hot vectors to learn a score function that scores classification for each class. In this mode, there is no ambiguity in classifying a new feature in to one of the three classes, as there is always a unique class that provides the highest score (ties maybe resolved arbitrarily). However, this may come at a cost of reduced accuracy in classification. \\
+
+{\it \bfseries Results:} Figure \ref{fig:LSMC_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $100$ realisations. \\
+
+\begin{figure}
+\centering
+\subfigure[Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSMC_dataset_iris_fraction_0.2}}
+\subfigure[Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSMC_dataset_iris_fraction_0.4}}
+\subfigure[Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSMC_dataset_iris_fraction_0.6}}
+\subfigure[Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex2/acc_LSMC_dataset_iris_fraction_0.8}}
+
+\caption{Multi-class Linear Least-Squares Classifier with varying train-test split fraction.}
+\label{fig:LSMC_Iris}
+\end{figure}
+
+{\it \bfseries Inference:} It can be seen that the accuracy of classification increases with increasing train-test split fraction. In such classification, the decision is not ambiguous -- the output for each new feature is a unique class label. However, as compared to accuracies in Figure \ref{fig:LSOA_Iris}, the accuracies are lower, i.e. an unambiguous decision is made with lesser confidence. Such multi-class classification is useful when the decision at interest is to know exactly which class the new feature belongs, where all classifications are relevant.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -505,6 +306,50 @@ Logistic regression can be extended to multi-class classification by taking the 
 \section{Logistic Regression on Financial Data}
 \label{sec:german}
 
+\begin{figure}
+\centering
+\subfigure[LS, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2}}
+\subfigure[LS, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4}}
+\subfigure[LS, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6}}
+\subfigure[LS, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8}}
+
+\subfigure[LOG, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2}}
+\subfigure[LOG, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4}}
+\subfigure[LOG, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6}}
+\subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8}}
+
+\caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and no data preprocessing.}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfigure[LS, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2}}
+\subfigure[LS, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4}}
+\subfigure[LS, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6}}
+\subfigure[LS, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8}}
+
+\subfigure[LOG, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2}}
+\subfigure[LOG, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4}}
+\subfigure[LOG, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6}}
+\subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8}}
+
+\caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and normalising data as preprocessing.}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfigure[LS, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2}}
+\subfigure[LS, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4}}
+\subfigure[LS, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6}}
+\subfigure[LS, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8}}
+
+\subfigure[LOG, Fraction $0.2$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2}}
+\subfigure[LOG, Fraction $0.4$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4}}
+\subfigure[LOG, Fraction $0.6$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6}}
+\subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8}}
+
+\caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and whitening data as preprocessing.}
+\end{figure}
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -512,12 +357,29 @@ Logistic regression can be extended to multi-class classification by taking the 
 \section{Linear Least-Squares Regression in 1D}
 \label{sec:linearRegression}
 
+\begin{figure}
+\centering
+\subfigure[Size $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_40}}
+\subfigure[Size $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_60}}
+\subfigure[Size $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_80}}
+\subfigure[Size $99$]{\label{fig:a}\includegraphics[width=1.5 in]{../results/ex4/samples_LS_regression_subsample_random_size_99}}
+\caption{Linear Least-Squares Regression on synthetic data with random subsampling.}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfigure[Size $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_40}}
+\subfigure[Size $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_60}}
+\subfigure[Size $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_80}}
+\subfigure[Size $99$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_99}}
+\caption{Linear Least-Squares Regression on synthetic data with uniform subsampling.}
+\end{figure}
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-%\section{Code Repository}
-%The Python codes to reproduce the results can be found in the GitHub repository \url{https://github.com/kamath-abhijith/Bayes_Classifier}. Use \texttt{requirements.txt} to install the dependencies.
+\section{Code Repository}
+The Python codes to reproduce the results can be found in the GitHub repository \url{https://github.com/kamath-abhijith/Linear_Models}. Use \texttt{requirements.txt} to install the dependencies.
 
 
 \end{document} 

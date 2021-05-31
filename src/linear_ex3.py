@@ -21,6 +21,20 @@ from matplotlib import pyplot as plt
 import utils
 import linear_tools
 
+# %% PARSE ARGUMENTS
+
+parser = argparse.ArgumentParser(
+    description = "LINEAR LEAST-SQUARES CLASSIFICATION ON GERMAN NUMERIC"
+)
+
+parser.add_argument('--split_fraction', help="Fracions of train and test", type=float, default=0.5)
+parser.add_argument('--preprocessing_method', help="Preprocessing method", default=None)
+
+args = parser.parse_args()
+
+split_fraction = args.split_fraction
+preprocessing_method = args.preprocessing_method
+
 # %% PLOT SETTINGS
 
 # plt.style.use(['science','ieee'])
@@ -39,12 +53,20 @@ num_samples, dim = data.shape
 
 features = linear_tools.Polynomial_Features(1)
 
+# preprocessing_method = 'whiten'
+if preprocessing_method == 'normalise':
+    samples = features.normalise(data[:,:dim-1])
+elif preprocessing_method == 'whiten':
+    samples = features.whiten(data[:,:dim-1])
+else:
+    samples = data[:,:dim-1]
+
 samples = features.transform(data[:,:dim-1])
 labels = (data[:,dim-1] - 1).astype(int)
 num_classes = len(np.unique(labels))
 
 dataset = linear_tools.Dataset(samples, labels)
-split_fraction = 0.8
+# split_fraction = 0.8
 
 # %% TRAINING AND TESTING
 
@@ -73,8 +95,8 @@ print(r'Linear Regression classifies with %.2f %% accuracy' %(LR_ACCURACY))
 os.makedirs('./../results/ex3', exist_ok=True)
 path = './../results/ex3/'
 
-save_res = path + 'acc_LS_dataset_german' + '_fraction_' + str(split_fraction)
+save_res = path + 'acc_LS_dataset_german' + '_method_' + preprocessing_method + '_fraction_' + str(split_fraction)
 
 utils.plot_confusion_matrix(confusion_mtx, map_min=None, map_max=None,
-    title_text=r'ACCURACY: %.2f %%' %(LR_ACCURACY), save=save_res)
+    title_text=r'ACCURACY: %.2f %%' %(LR_ACCURACY), show=False, save=save_res)
 # %%
