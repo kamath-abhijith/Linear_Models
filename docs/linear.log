@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  31 MAY 2021 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  31 MAY 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2167,70 +2167,11 @@ pdf)
 Package pdftex.def Info: ../results/ex2/acc_LSMC_dataset_iris_fraction_0.8.pdf 
  used on input line 295.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf, id=1427, 57
-8.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf Graphic
- file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
-ion_0.2.pdf  used on input line 311.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf, id=1428, 57
-8.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf Graphic
- file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
-ion_0.4.pdf  used on input line 312.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf, id=1429, 57
-8.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf Graphic
- file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
-ion_0.6.pdf  used on input line 313.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf, id=1430, 57
-8.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf Graphic
- file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
-ion_0.8.pdf  used on input line 314.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf, id=1431, 5
-78.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf Graphi
-c file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
-tion_0.2.pdf  used on input line 316.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf, id=1432, 5
-78.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf Graphi
-c file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
-tion_0.4.pdf  used on input line 317.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf, id=1433, 5
-78.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf Graphi
-c file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
-tion_0.6.pdf  used on input line 318.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf, id=1434, 5
-78.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf Graphi
-c file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
-tion_0.8.pdf  used on input line 319.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
 [8] [9 <../results/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_0.pdf> <../resu
 lts/ex2/acc_LSOA_dataset_iris_fraction_0.2_class_1.pdf
 
@@ -2288,201 +2229,155 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSOA_data
 set_iris_fraction_0.8_class_2.pdf): PDF inclusion: multiple pdfs with page grou
 p included in a single page
 >]
-<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf, id=183
-9, 578.16pt x 578.16pt>
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf, id=1837, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.2.pdf  used on input line 317.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf, id=1838, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.4.pdf  used on input line 318.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf, id=1839, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.6.pdf  used on input line 319.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf, id=1840, 57
+8.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf Graphic
+ file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_none_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_none_fract
+ion_0.8.pdf  used on input line 320.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf, id=1841, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.2.pdf  used on input line 322.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf, id=1842, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.4.pdf  used on input line 323.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf, id=1843, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.6.pdf  used on input line 324.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf, id=1844, 5
+78.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf Graphi
+c file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_none_frac
+tion_0.8.pdf  used on input line 325.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+<../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf, id=184
+5, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf Gr
 aphic file (type pdf)
 <use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.2.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
-fraction_0.2.pdf  used on input line 326.
+fraction_0.2.pdf  used on input line 335.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf, id=184
-0, 578.16pt x 578.16pt>
+6, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf Gr
 aphic file (type pdf)
 <use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.4.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
-fraction_0.4.pdf  used on input line 327.
+fraction_0.4.pdf  used on input line 336.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf, id=184
-1, 578.16pt x 578.16pt>
+7, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf Gr
 aphic file (type pdf)
 <use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.6.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
-fraction_0.6.pdf  used on input line 328.
+fraction_0.6.pdf  used on input line 337.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf, id=184
-2, 578.16pt x 578.16pt>
+8, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf Gr
 aphic file (type pdf)
 <use ../results/ex3/acc_LS_dataset_german_method_normalise_fraction_0.8.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_normalise_
-fraction_0.8.pdf  used on input line 329.
+fraction_0.8.pdf  used on input line 338.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf, id=18
-43, 578.16pt x 578.16pt>
+49, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf G
 raphic file (type pdf)
 <use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.2.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
-_fraction_0.2.pdf  used on input line 331.
+_fraction_0.2.pdf  used on input line 340.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf, id=18
-44, 578.16pt x 578.16pt>
+50, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf G
 raphic file (type pdf)
 <use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.4.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
-_fraction_0.4.pdf  used on input line 332.
+_fraction_0.4.pdf  used on input line 341.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf, id=18
-45, 578.16pt x 578.16pt>
+51, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf G
 raphic file (type pdf)
 <use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.6.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
-_fraction_0.6.pdf  used on input line 333.
+_fraction_0.6.pdf  used on input line 342.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
 <../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf, id=18
-46, 578.16pt x 578.16pt>
+52, 578.16pt x 578.16pt>
 File: ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf G
 raphic file (type pdf)
 <use ../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8.pdf>
 Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_normalise
-_fraction_0.8.pdf  used on input line 334.
+_fraction_0.8.pdf  used on input line 343.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf, id=1847, 
-578.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf Graph
-ic file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
-ction_0.2.pdf  used on input line 341.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf, id=1848, 
-578.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf Graph
-ic file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
-ction_0.4.pdf  used on input line 342.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf, id=1849, 
-578.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf Graph
-ic file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
-ction_0.6.pdf  used on input line 343.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf, id=1850, 
-578.16pt x 578.16pt>
-File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf Graph
-ic file (type pdf)
-<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
-ction_0.8.pdf  used on input line 344.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf, id=1851,
- 578.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf Grap
-hic file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
-action_0.2.pdf  used on input line 346.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf, id=1852,
- 578.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf Grap
-hic file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
-action_0.4.pdf  used on input line 347.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf, id=1853,
- 578.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf Grap
-hic file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
-action_0.6.pdf  used on input line 348.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf, id=1854,
- 578.16pt x 578.16pt>
-File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf Grap
-hic file (type pdf)
-<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf>
-Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
-action_0.8.pdf  used on input line 349.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_random_size_40.pdf, id=1855, 57
-8.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf Graphic
- file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
-size_40.pdf  used on input line 362.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_random_size_60.pdf, id=1856, 57
-8.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf Graphic
- file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
-size_60.pdf  used on input line 363.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_random_size_80.pdf, id=1857, 57
-8.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf Graphic
- file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
-size_80.pdf  used on input line 364.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_random_size_99.pdf, id=1858, 57
-8.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf Graphic
- file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
-size_99.pdf  used on input line 365.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf, id=1859, 5
-78.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf Graphi
-c file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
-_size_40.pdf  used on input line 371.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf, id=1860, 5
-78.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf Graphi
-c file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
-_size_60.pdf  used on input line 372.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf, id=1861, 5
-78.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf Graphi
-c file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
-_size_80.pdf  used on input line 373.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf, id=1862, 5
-78.16pt x 578.16pt>
-File: ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf Graphi
-c file (type pdf)
-<use ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf>
-Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
-_size_99.pdf  used on input line 374.
-(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
- [10 <../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf> <../results/ex2/ac
-c_LSMC_dataset_iris_fraction_0.4.pdf
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+[10 <../results/ex2/acc_LSMC_dataset_iris_fraction_0.2.pdf> <../results/ex2/acc
+_LSMC_dataset_iris_fraction_0.4.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex2/acc_LSMC_data
 set_iris_fraction_0.4.pdf): PDF inclusion: multiple pdfs with page group includ
@@ -2573,8 +2468,83 @@ et_german_method_normalise_fraction_0.6.pdf): PDF inclusion: multiple pdfs with
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
 et_german_method_normalise_fraction_0.8.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
->] [12 <../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf> <.
-./results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf
+>]
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf, id=2553, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.2.pdf  used on input line 353.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf, id=2554, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.4.pdf  used on input line 354.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf, id=2555, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.6.pdf  used on input line 355.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf, id=2556, 
+578.16pt x 578.16pt>
+File: ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf Graph
+ic file (type pdf)
+<use ../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LS_dataset_german_method_whiten_fra
+ction_0.8.pdf  used on input line 356.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf, id=2557,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.2.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.2.pdf  used on input line 358.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf, id=2558,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.4.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.4.pdf  used on input line 359.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf, id=2559,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.6.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.6.pdf  used on input line 360.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf, id=2560,
+ 578.16pt x 578.16pt>
+File: ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf Grap
+hic file (type pdf)
+<use ../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8.pdf>
+Package pdftex.def Info: ../results/ex3/acc_LOG_dataset_german_method_whiten_fr
+action_0.8.pdf  used on input line 361.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+[12 <../results/ex3/acc_LS_dataset_german_method_whiten_fraction_0.2.pdf> <../r
+esults/ex3/acc_LS_dataset_german_method_whiten_fraction_0.4.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LS_datase
 t_german_method_whiten_fraction_0.4.pdf): PDF inclusion: multiple pdfs with pag
@@ -2609,12 +2579,82 @@ ge group included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex3/acc_LOG_datas
 et_german_method_whiten_fraction_0.8.pdf): PDF inclusion: multiple pdfs with pa
 ge group included in a single page
-> <../results/ex4/samples_LS_regression_subsample_random_size_40.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
-gression_subsample_random_size_40.pdf): PDF inclusion: multiple pdfs with page 
-group included in a single page
-> <../results/ex4/samples_LS_regression_subsample_random_size_60.pdf
+ []
+
+<../results/ex4/samples_LS_regression_subsample_random_size_40.pdf, id=2849, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_40.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_40.pdf  used on input line 383.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_60.pdf, id=2850, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_60.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_60.pdf  used on input line 384.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_80.pdf, id=2851, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_80.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_80.pdf  used on input line 385.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_random_size_99.pdf, id=2852, 57
+8.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf Graphic
+ file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_random_size_99.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_random_
+size_99.pdf  used on input line 386.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf, id=2853, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_40.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_40.pdf  used on input line 393.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf, id=2854, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_60.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_60.pdf  used on input line 394.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf, id=2855, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_80.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_80.pdf  used on input line 395.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+<../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf, id=2856, 5
+78.16pt x 578.16pt>
+File: ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf Graphi
+c file (type pdf)
+<use ../results/ex4/samples_LS_regression_subsample_uniform_size_99.pdf>
+Package pdftex.def Info: ../results/ex4/samples_LS_regression_subsample_uniform
+_size_99.pdf  used on input line 396.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+[13 <../results/ex4/samples_LS_regression_subsample_random_size_40.pdf> <../res
+ults/ex4/samples_LS_regression_subsample_random_size_60.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
 gression_subsample_random_size_60.pdf): PDF inclusion: multiple pdfs with page 
@@ -2650,26 +2690,28 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/ex4/samples_LS_re
 gression_subsample_uniform_size_99.pdf): PDF inclusion: multiple pdfs with page
  group included in a single page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 412.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 412.
  (./linear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 412.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 412.
 Package rerunfilecheck Info: File `linear.out' has not changed.
-(rerunfilecheck)             Checksum: 85944B42416C0B370F7916D3F50D535A;547.
+(rerunfilecheck)             Checksum: BAF8CE64415F97FDFCE354776EE8CC2D;553.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 412.
  ) 
 Here is how much of TeX's memory you used:
- 11534 strings out of 480608
- 202033 string characters out of 5903629
- 457170 words of memory out of 5000000
- 26883 multiletter control sequences out of 15000+600000
+ 11541 strings out of 480608
+ 202152 string characters out of 5903629
+ 457823 words of memory out of 5000000
+ 26888 multiletter control sequences out of 15000+600000
  559218 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,31p,793b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,31p,793b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
 texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -2691,10 +2733,10 @@ t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/
 fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on linear.pdf (12 pages, 1730572 bytes).
+Output written on linear.pdf (14 pages, 1741978 bytes).
 PDF statistics:
- 3285 PDF objects out of 3580 (max. 8388607)
- 972 compressed objects within 10 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 3312 PDF objects out of 3580 (max. 8388607)
+ 989 compressed objects within 10 object streams
+ 135 named destinations out of 1000 (max. 500000)
  555 words of extra memory for PDF output out of 10000 (max. 10000000)
 

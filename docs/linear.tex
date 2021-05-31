@@ -124,7 +124,7 @@ Logistic regression can be extended to multi-class classification by taking the 
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\section{Linear Least-Squares and Logistic Regression}
+\section{Linear Classification on Synthetic Data}
 \label{sec:LRandLOG}
 
 \problem{Problem (1.a) Gamma-distributed Classes in 2D}
@@ -132,7 +132,7 @@ Logistic regression can be extended to multi-class classification by taking the 
 
 Let the class conditionals be modelled as Gamma distributions with different shape and scale parameters. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gamma} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $100$ realisations and one of the discriminant functions is plotted. \\
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gamma} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $10000$ realisations and one of the discriminant functions is plotted. \\
 
 \begin{figure}
 \centering
@@ -174,7 +174,7 @@ Let the class conditionals be modelled as Gamma distributions with different sha
 
 Let the class conditionals be modelled as uniform distributions with different supports. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Uniform} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $100$ realisations and one of the discriminant functions is plotted. \\
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Uniform} shows the accuracies of classification in confusion matrices and the samples along with the discriminant function. The first and third columns shows the confusion matrices of the linear classifier and logistic regression, respectively with varying training sizes. The second and fourth column shows the samples along with the discriminant function. The accuracies reported are averaged over $10000$ realisations and one of the discriminant functions is plotted. \\
 
 \begin{figure}
 \centering
@@ -216,7 +216,7 @@ Let the class conditionals be modelled as uniform distributions with different s
 
 Let the class conditionals be modelled as Gaussian distributions with different mean and identity covariance. The $2$-class linear least-squares (LS) classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
 
-{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gaussian} shows the accuracies of classification in confusion matrices. The classifier and the training size used are mentioned in the respective captions. The accuracies reported are averaged over $100$ realisations. \\
+{\it \bfseries Results:} Figure \ref{fig:LS_LOG_Gaussian} shows the accuracies of classification in confusion matrices. The classifier and the training size used are mentioned in the respective captions. The accuracies reported are averaged over $10000$ realisations. \\
 
 \begin{figure}
 \centering
@@ -242,7 +242,7 @@ Let the class conditionals be modelled as Gaussian distributions with different 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\section{Multi-Class Linear Model on Iris Dataset}
+\section{Multi-Class Linear Classification on Iris Dataset}
 \label{sec:bayes20D}
 
 The \texttt{iris} data set contains features in $\rr^{5}$ and classifies into three classes -- Iris Sentosa, Iris Versicolour and Iris Virginica.
@@ -252,7 +252,7 @@ The \texttt{iris} data set contains features in $\rr^{5}$ and classifies into th
 
 In the one vs. rest mode, three binary classifiers are learnt as Iris Sentosa vs. not Iris Sentosa, Iris Versicolour and not Iris Versicolour and Iris Virginica and not Iris Virginica. In this mode of multi-class classification, ambiguities may arise when multiple class flag the feature into the true class. The linear least-squares classifier are trained by minimising (\ref{eq:lsClassifier}). \\
 
-{\it \bfseries Results:} Figure \ref{fig:LSOA_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $100$ realisations. \\
+{\it \bfseries Results:} Figure \ref{fig:LSOA_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $10000$ realisations. \\
 
 \begin{figure}
 \centering
@@ -285,7 +285,7 @@ In the one vs. rest mode, three binary classifiers are learnt as Iris Sentosa vs
 
 In the multi-class mode, one $3$-class classifier using the method described in Section \ref{subsec:linearRegression}, by considering labels to be corresponding one-hot vectors to learn a score function that scores classification for each class. In this mode, there is no ambiguity in classifying a new feature in to one of the three classes, as there is always a unique class that provides the highest score (ties maybe resolved arbitrarily). However, this may come at a cost of reduced accuracy in classification. \\
 
-{\it \bfseries Results:} Figure \ref{fig:LSMC_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $100$ realisations. \\
+{\it \bfseries Results:} Figure \ref{fig:LSMC_Iris} shows the confusion matrices for each class with varying train-test split fraction of the dataset. The resultant accuracies are shown in the respective titles. The results are averaged over $10000$ realisations. \\
 
 \begin{figure}
 \centering
@@ -303,8 +303,14 @@ In the multi-class mode, one $3$-class classifier using the method described in 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\section{Logistic Regression on Financial Data}
+\section{Linear Classification on Financial Data}
 \label{sec:german}
+
+The \texttt{german.data-numeric} dataset contains features in $\rr^{24}$ related to finance of individuals and classifies into two classes -- bad and good. The data provided are in varying ranges, some are scores and some are binary flags. Hence, some data preprocessing maybe needed to obtain useful results. \\
+
+{\it \bfseries Implementation:} Linear Least-Squares and Logistic Regression are used for classification. Two data preprocessing methods are considered -- normalisation and whitening. The linear least-squares classifier is trained by minimising (\ref{eq:lsClassifier}) and logistic regression (LOG) is trained using gradient descent with constant step-size using (\ref{eq:logGD}). \\
+
+{\it \bfseries Results:} Figure \ref{fig:german_none}, \ref{fig:german_normalise}, \ref{fig:german_whiten} shows the confusion matrices of classification using linear least-squares and logistic regression, using no preprocessing, data normalising and data whitening respectively, with varying train-test split fraction. The results are averaged over $10000$ realisations. \\
 
 \begin{figure}
 \centering
@@ -319,7 +325,10 @@ In the multi-class mode, one $3$-class classifier using the method described in 
 \subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_none_fraction_0.8}}
 
 \caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and no data preprocessing.}
+\label{fig:german_none}
 \end{figure}
+
+{\it \bfseries Inference on no preprocessing:} The accuracy of either of the classifiers does not appear to change with changing train-test split fraction. Linear least-squares classifier performs better than logistic regression, for any given train-test split fraction. \\
 
 \begin{figure}
 \centering
@@ -334,7 +343,10 @@ In the multi-class mode, one $3$-class classifier using the method described in 
 \subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_normalise_fraction_0.8}}
 
 \caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and normalising data as preprocessing.}
+\label{fig:german_normalise}
 \end{figure}
+
+{\it \bfseries Inference on preprocessing using normalisation:} The accuracy of either of the classifiers increases with increase in train-test split fraction. Even in this case, linear least-squares classifier performs better than logistic regression, for any given train-test split fraction. However, there is a noticable trend of increasing accuracy in classification using logistic regression. Logistic regression with train-test split fraction of $0.2$ gives an overall accuracy of $70.52 \%$, however, the false negative rate is large. With higher training sizes, the accuracy in classification with normalisation is higher than in classification without any preprocessing. \\
 
 \begin{figure}
 \centering
@@ -349,7 +361,10 @@ In the multi-class mode, one $3$-class classifier using the method described in 
 \subfigure[LOG, Fraction $0.8$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex3/acc_LOG_dataset_german_method_whiten_fraction_0.8}}
 
 \caption{Linear Least-Squares Classifier on German Numeric dataset, with varying train-test split fraction and whitening data as preprocessing.}
+\label{fig:german_whiten}
 \end{figure}
+
+{\it \bfseries Inference on preprocessing using whitening:} The accuracy of least-squares classifier shows an increasing trend with increase in train-test split fraction. There is no such clear trend with logistic regression. With lower training sizes, logistic regression gives higher accuracies with higher false negatives, and with higher training sizes, the accuracies are similar to accuracies using normalisation. Either of the preprocessing methods provides better results with higher training size than no preprocessing.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -357,29 +372,41 @@ In the multi-class mode, one $3$-class classifier using the method described in 
 \section{Linear Least-Squares Regression in 1D}
 \label{sec:linearRegression}
 
+The regression problem is to learn values in $\rr$ for features in $\rr^{d}$. Regression using least-squares is similar to least-squares classification, where the value $f(\bx)$ is taken to be the value in (\ref{eq:lsClassifier}). Learning of the weights from the training data is identical to learning in the classification problem, as described in Section \ref{subsec:linearRegression}. \\
+
+{\it \bfseries Implementation:} Linear least-squares regression is used to fit polynomials of different orders. The features used are $\bx$ from the given $1D$ training data and its powers, depending on the order. The training is done using varying training sizes by subsampling the given data randomly and uniformly. \\
+
+{\it \bfseries Results:} Figure \ref{fig:regression_random} and \ref{fig:regression_uniform} show samples and regression polynomials learnt from training using random subsampling and uniform subsampling, respectively, for varying training sizes. Polynomials are learnt for orders $2$, $3$ and $4$. The $L^{2}$ error between the learnt polynomial and the true polynomial are shown in the legends. These errors are averaged over $10000$ realisations. The true polynomials and the samples used are also shown. \\
+
 \begin{figure}
 \centering
-\subfigure[Size $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_40}}
-\subfigure[Size $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_60}}
-\subfigure[Size $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_80}}
-\subfigure[Size $99$]{\label{fig:a}\includegraphics[width=1.5 in]{../results/ex4/samples_LS_regression_subsample_random_size_99}}
+\subfigure[Training Samples $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_40}}
+\subfigure[Training Samples $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_60}}
+\subfigure[Training Samples $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_random_size_80}}
+\subfigure[Training Samples $99$]{\label{fig:a}\includegraphics[width=1.5 in]{../results/ex4/samples_LS_regression_subsample_random_size_99}}
 \caption{Linear Least-Squares Regression on synthetic data with random subsampling.}
+\label{fig:regression_random}
 \end{figure}
 
 \begin{figure}
 \centering
-\subfigure[Size $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_40}}
-\subfigure[Size $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_60}}
-\subfigure[Size $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_80}}
-\subfigure[Size $99$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_99}}
+\subfigure[Training Samples $40$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_40}}
+\subfigure[Training Samples $60$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_60}}
+\subfigure[Training Samples $80$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_80}}
+\subfigure[Training Samples $99$]{\label{fig:a}\includegraphics[width=1.5in]{../results/ex4/samples_LS_regression_subsample_uniform_size_99}}
 \caption{Linear Least-Squares Regression on synthetic data with uniform subsampling.}
+\label{fig:regression_uniform}
 \end{figure}
+
+{\it \bfseries Inference:} For either case, it can be seen that the errors reduce with increase in training samples. However, the trend is clear in the case of uniform subsampling across all degrees. The errors in the case of random sampling are higher than uniform sampling. These can be attributed to numerical precision errors in the matrix inversion. The feature matrix is known to have a Vandermonde structure and hence the conditioning worsens when the spacing between the samples reduces. As the training size increases, the error in the degree $3$ polynomial is the least. \\
+
+The errors indicate a method to select the correct order. From the results, the choice of degree $3$ is correct. This is in accordance with the minimum description length (MDL) principle. The degree $3$ polynomial has the smallest pointwise errors. Hence, the number of bits needed to store the errors, weights and the $1$D features is the least.
 
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 % ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \section{Code Repository}
-The Python codes to reproduce the results can be found in the GitHub repository \url{https://github.com/kamath-abhijith/Linear_Models}. Use \texttt{requirements.txt} to install the dependencies.
+The Python codes to reproduce the results can be found in the GitHub repository \url{https://github.com/kamath-abhijith/Linear_Models}. Use \texttt{requirements.txt} to install the dependencies and the shell scripts to generate the figures.
 
 
 \end{document} 
